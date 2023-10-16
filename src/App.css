@@ -1,7 +1,422 @@
 #root {
-  max-width: 1280px;
+  width: 100%;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 10px;
   text-align: center;
+}
+
+/* Diseño para la pagina de Inicio */
+.div-logo{
+  background-color: #00B394;
+  border: 3px solid black;
+  position: relative;
+}
+
+.div-logo img{
+  width: 150px;
+  height: 300px;
+}
+
+.menu-navegacion {
+  list-style: none;
+  padding: 0;
+  text-align: right;
+  background-color: gray;
+}
+
+.menu-navegacion ol {
+  margin: 5px 0;
+  color: black;
+  text-align: center;
+}
+
+.div-inicio {
+  background-size: 100% 100%;
+  background-image: url('./assets/img/fondoUTL.png');
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.div-herramientas{
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+}
+
+.buttonC {
+  background-color: #007BFF;
+  color: white; 
+  font-weight: bold;
+  border: 2px solid #0056b3;
+  border-radius: 10px;
+  padding: 10px 20px;
+  font-size: 50px;
+}
+
+.buttonC:hover{
+  background-color: #0056b3;
+}
+
+.div-centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.div-redes {
+  bottom: 0;
+  right: 0;
+  position: absolute; 
+  padding: 5px;
+}
+
+.div-aparicion{
+  background-color: white;
+  max-width: 200px;
+  margin: 0 auto;
+}
+
+.div-aparicion p{
+  border: 1px solid #000;
+  padding: 5px;
+  margin: 0;
+}
+
+.div-aparicion p:hover {
+  background-color: #00B394;
+}
+
+.div-logosAso {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  bottom: 0;
+  height: 2.5rem;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+/* Estilos para los modales */
+.modal {
+  display: none;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+}
+
+.modal-content {
+  position: absolute;
+  background-color: #fff;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 20px;
+}
+
+.close {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.close button{
+  background-color: #00B394;
+}
+
+
+
+@media screen and (max-width: 768px) {
+  .buttonC {
+    font-size: 20px;
+    position: static; /* Vuelve a la posición estática */
+    margin: 5px 0;
+  }
+
+  .div-inicio{
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .div-herramientas {
+    position: relative; /* Vuelve a la posición relativa */
+    top: 0;
+  }
+
+  .div-redes {
+    position: relative; /* Vuelve a la posición relativa */
+    bottom: 0;
+  }
+
+  .div-logosAso {
+    position: static; 
+    text-align: center; 
+    padding: 10px;
+  }
+
+  .div-logo, .menu-navegacion {
+    margin: -10px;
+  }
+
+  .div-inicio, .div-logosAso{
+    margin: -5px;
+  }
+}
+
+
+
+/* Diseño para el footer de las demas paginas */
+.footer {
+  background-color: #003082;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+  align-items: center;
+  bottom: 0;
+  left: 0;
+  position: sticky;
+}
+
+.footer a {
+  color: white;
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-top {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.footer-bottom {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 20px;
+}
+
+.footer-image {
+  width: 10%;
+}
+
+.footer-image img {
+  width: 100px;
+  height: 150px;
+}
+
+.column{
+  float: left;
+  padding: 15px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer{
+    position: relative;
+  }
+
+  .footer-top {
+    justify-content: center;
+    align-items: center; 
+  }
+  
+  .footer-image {
+    width: 15%;
+    align-items: center;
+    top: 50%;
+    z-index: 1;
+  }
+
+  .footer-image img {
+    width: 100%; 
+    height: auto; 
+  }
+
+  .column {
+    width: 100%; 
+    float: center; 
+    text-align: center; 
+  }
+}
+
+
+/* Diseño para la pagina Soy UTL */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #003082;
+  color: white;
+  padding: 10px;
+}
+
+/* Estilos para la parte izquierda del menú */
+.left-content {
+  display: flex;
+  align-items: center;
+}
+
+.logo {
+  width: 200px;
+  height: 60px;
+  margin-right: 10px;
+}
+
+.hamburger-button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  padding: 5px;
+  position: absolute;
+}
+
+.hamburger-button li {
+  display: block;
+  width: 30px;
+  height: 4px;
+  background-color: white;
+  margin: 6px auto;
+  transition: 0.4s;
+}
+
+.center-content {
+  text-align: center;
+  flex-grow: 2;
+  float: left;
+}
+
+.right-content {
+  position: relative;
+}
+
+.dropdown-button {
+  background: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-inicio {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: white;
+  list-style: none;
+  padding: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+  text-align: center;
+}
+
+.dropdown-inicio li {
+  padding: 10px;
+  text-align: center;
+}
+
+.dropdown-menu li:hover{
+  background-color: #00B394;
+}
+
+.dropdown-inicio li:hover{
+  background-color: #00B394;
+}
+
+.dropdown-button:focus + .dropdown-menu, .dropdown-menu:hover {
+  display: block;
+}
+
+.carousel-inner img {
+  width: 400px;
+  height: 700px;
+}
+
+.carousel-inner h5 {
+  font-size: 50px;
+}
+
+.carousel-inner p {
+  font-size: 20px;
+}
+
+.carousel-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.carousel {
+  flex: 1;
+}
+
+.div-historia{
+  background-color: white;
+  align-items: center;
+}
+.div-historia h1{
+  text-align: center;
+  color: #003082;
+  font-size: 80px;
+}
+
+.div-historia img {
+  max-width: 100%;
+  height: auto;
+}
+
+.div-historia p{
+  text-align: justify
+}
+
+.btn-rectora{
+  float: right;
+}
+
+.modal-body img {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+}
+
+@media screen and (max-width: 768px) {
+  .carousel-inner img {
+    width: 200px;
+    height: 350px;
+  }
+
+  .modal-rectora p{
+    font-size: 13px;
+  }
 }
 
