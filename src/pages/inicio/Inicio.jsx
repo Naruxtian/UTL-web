@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Footer from "../../components/footerLogoAso";
+import FooterInformativo from "../../components/footerInformativo";
 
 
 const Inicio = () => {
@@ -36,11 +37,12 @@ const Inicio = () => {
 
   return (
     <>
-      <div id="root">
         <div className="">
-          <div className="menuSuperior">
             <div className=" div-inicio">
-              <div className="div-herramientas">
+              <div className="text-container ">
+                <h1 className="text-pattern">Bienvenidos a la UTL</h1>
+              </div>
+            <div className="div-herramientas">
                 <br />
                 <button
                   onClick={handleMostrarContenidoHerramientas}
@@ -79,9 +81,8 @@ const Inicio = () => {
                 </button>
                 {mostrarContenidoHerramientasM && (
                   <div
-                    className={`modal fade ${
-                      handleMostrarContenidoHerramientasM ? "show" : ""
-                    }`}
+                    className={`modal fade ${handleMostrarContenidoHerramientasM ? "show" : ""
+                      }`}
                     tabIndex="-1"
                     role="dialog"
                     style={{
@@ -168,9 +169,8 @@ const Inicio = () => {
                 </button>
                 {mostrarContenidoConocenosM && (
                   <div
-                    className={`modal fade ${
-                      handleMostrarContenidoConocenosM ? "show" : ""
-                    }`}
+                    className={`modal fade ${handleMostrarContenidoConocenosM ? "show" : ""
+                      }`}
                     tabIndex="-1"
                     role="dialog"
                     style={{
@@ -289,12 +289,13 @@ const Inicio = () => {
                 </a>
               </div>
             </div>
-          </div>
-          <div className="div-logosAso">
+          <div className="">
             <Footer />
           </div>
+          <div>
+            <FooterInformativo />
+          </div>
         </div>
-      </div>
     </>
   );
 };

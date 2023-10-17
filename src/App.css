@@ -2,14 +2,12 @@
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  height: 1000px;
+  height: 100%;
 }
 
 .menuSuperior{
-  display: inline-flex;
+  display: absolute;
   width: 100%;
-  margin-left: 5%;
-  margin-right: 5%;
 }
 
 .div-utl{
@@ -65,8 +63,59 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 60%;
+  width: 100%;
+  height: 100vh;
 }
+
+/* .titulo{
+  font-size: 50px; 
+  font-weight: bold; 
+  color: #003082; 
+  text-align: center; 
+  text-transform: uppercase;  
+  margin: 20px 0; 
+  top: 0; 
+  position: absolute;
+  -webkit-text-stroke: 2px white; 
+} */
+
+
+.text-container {
+  text-align: center;
+  position: absolute;
+  top: 0;
+}
+
+.text-container h1 {
+  font-size: 4em;
+  text-transform: uppercase;
+}
+
+.text-container .text-pattern {   
+  font-weight: bold; 
+  color: transparent; 
+  text-align: center; 
+  top: 0; 
+  -webkit-text-stroke: 2px white;
+  background-color: #003082;
+  background-image: repeating-linear-gradient(45deg,    transparent, transparent 25px,        #00B394 25px, #00B394 50px);
+   -webkit-background-clip: text;
+    background-clip: text;   
+  animation: color 50s linear infinite; 
+  background-size: 200%;  
+  -webkit-transform: translate3d(0,0,0);
+  -webkit-backface-visibility: hidden;
+}
+
+@keyframes color {
+  from { 
+    background-position: 0% 50%;
+  }
+  to { 
+    background-position: 100% 50%; 
+  }
+}
+
 
 
 .div-herramientas{
@@ -122,9 +171,9 @@
 
 .div-logosAso {
   width: 100%;
-  position: absolute;
   height: 5%;
-  margin-top: 20%;
+  bottom: 0;
+  position: absolute;
 }
 
 a {
@@ -166,16 +215,22 @@ a {
 }
 
 
+/* @media screen  and (min-width: 1000px){
+  .div-inicio{
+    height: 880px;
+  }
+} */
 
 @media screen and (max-width: 768px) {
   .buttonC {
     font-size: 20px;
-    position: static; /* Vuelve a la posición estática */
+    position: static; 
     margin: 5px 0;
   }
 
   .div-inicio{
-    height: auto;
+    height: 630px;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -184,28 +239,26 @@ a {
   }
 
   .div-herramientas {
-    position: relative; /* Vuelve a la posición relativa */
+    position: relative; 
     top: 0;
   }
 
   .div-redes {
-    position: relative; /* Vuelve a la posición relativa */
+    position: relative; 
     bottom: 0;
   }
 
   .div-logosAso {
-    position: static; 
+    position: absolute; 
     text-align: center; 
-    padding: 10px;
   }
 
-  .div-logo, .menu-navegacion {
-    margin: -10px;
+  .text-container h1 {
+    font-size: 3em;
+    text-align: center;
+    text-transform: uppercase;
   }
 
-  .div-inicio, .div-logosAso{
-    margin: -5px;
-  }
 }
 
 
