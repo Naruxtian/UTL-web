@@ -3,7 +3,14 @@
     flex-wrap: wrap;
     justify-content: space-around;
     padding: 20px;
+    
 }
+
+@media (max-width:300px) {
+    .card {
+      flex-basis: 100%; /* Cuando el ancho de la tarjeta sea menor a 300px, se colocarán una debajo de la otra */
+    }
+  }
 
 .card {
     background-color: #fff;
@@ -14,20 +21,18 @@
     height: auto;
     text-align: center;
     align-items: center;
-    width: 15%;
+    width: 30%;
+    min-width: 15%;
     color: rgb(35, 35, 163);
 }
 
-.card img {
-    max-width: 100%;
-}
 
 .tituloContacto{
     color:white;
 }
 
 .botonEnviar{
-    width: 40%;
+    width: 80%;
     height: 50px auto;
     border-radius: 10px;
     border-color: rgb(35, 35, 163);
@@ -62,13 +67,12 @@
 
 .contenido{
     color:white;
-    display: inline-flex;
-    margin-left: auto;
-    margin-right: auto;
+    display: inline;
+    align-items: center;
 }
 
 .lista{
-    width: 50%;
+    width: 80%;
     margin-left: auto;
     margin-right: auto;
     text-align: start;
@@ -81,4 +85,9 @@
 
 .politicas{
 
+}
+
+.numeros{
+    margin-top: auto;
+    margin-bottom: 20px;
 }
