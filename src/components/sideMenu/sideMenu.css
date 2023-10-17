@@ -1,50 +1,8 @@
-
- .sideNav {
-    width: 250px;
-    height: 100vh;
-    background: #011627;
-    position: absolute;
-    z-index: 100;
-    padding: 0 30px;
-    left: -100%;
-    transition: all 1s;
- }
- .sideNav.active{
-   left: 0;
- }
-
- ul {
-   padding: 0;
- }
-
- ul li{
-   list-style: none;
- }
-
- ul li a{
-   color: #eaeaea;
-   text-decoration: none;
-   font-size: 1.2rem;
-   display: block;
-   padding: 10px 15px;
-   border-radius: 6px;
- }
-
- ul li a:hover, ul li a.active{
-   background: #172b4d;
- }
-
-.log{
-  width: 7rem;
+.sideMenu{
+    background-color: #0544ce;
+    position: fixed;
 }
 
-/* .sbm{
-  color: #eaeaea;
+.menuLogo{
+    width: 4rem;
 }
-
-.sbm:hover{
-  background: #172b4d;
-} */
-
-
-

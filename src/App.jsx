@@ -4,8 +4,8 @@ import { Route, Routes, useLocation, useNavigate } from 'react-router-dom';
 import Inicio from './pages/inicio/Inicio'
 import Aspirante from './pages/aspirante/Aspirante'
 import SideMenu from './components/sideMenu/sideMenu';
-import {GiHamburgerMenu} from 'react-icons/gi'
 import './App.css'
+import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 
 
 import { Link } from 'react-router-dom';
@@ -15,10 +15,7 @@ function App() {
 
   return (
     <>
-      <header>
-        <GiHamburgerMenu onClick={() => setShowNav(!showNav)}/>
-      </header>
-      <SideMenu show={showNav}/>
+      <SideMenu show={showNav}/> 
       <Routes>          
             <Route index element={<Inicio/>} />
             <Route path="/" element={<Inicio/>}/>
