@@ -1,7 +1,6 @@
 
 const FooterInformativo = () => {
     return (
-        <div className='container'>
             <div className='row'>
             <div className="footer">
                     <div className="footer-content">
@@ -75,7 +74,6 @@ const FooterInformativo = () => {
                     </div>
                 </div>
             </div>
-        </div>
     );
 };
 
