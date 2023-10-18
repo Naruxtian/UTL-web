@@ -1,8 +1,21 @@
 .sideMenu{
-    background-color: #0544ce;
+    background-color: #003082;
     position: fixed;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.2rem;
 }
 
 .menuLogo{
     width: 4rem;
+    padding: 0.5rem;
+}
+
+.ic{
+    width: 1.2rem;
+    height: 1.2rem;
+}
+
+.MenuItm {
+    text-decoration: none;
+    color: #00B394;
 }

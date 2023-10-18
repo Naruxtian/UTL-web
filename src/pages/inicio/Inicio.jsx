@@ -1,6 +1,5 @@
 import { useState } from "react";
-import Footer from "../../components/footerLogoAso";
-import FooterInformativo from "../../components/footerInformativo";
+
 
 
 const Inicio = () => {
@@ -289,12 +288,6 @@ const Inicio = () => {
                 </a>
               </div>
             </div>
-          <div className="">
-            <Footer />
-          </div>
-          <div>
-            <FooterInformativo />
-          </div>
         </div>
     </>
   );

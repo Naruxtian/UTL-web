@@ -1,7 +1,9 @@
 /* eslint-disable react/prop-types */
-import SideNav, { Toggle, Nav, NavItem, NavIcon, NavText } from '@trendmicro/react-sidenav';
+import SideNav, { NavItem, NavIcon, NavText} from '@trendmicro/react-sidenav';
 import { Link } from 'react-router-dom';
-import logo from '../../assets/img/logo.png'
+import logo from '../../assets/img/utlLogoWhite.png'
+import { AiFillHome, AiOutlineUserAdd } from "react-icons/ai";
+import { PiStudentFill } from "react-icons/pi";
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './sideMenu.css'
 
@@ -11,26 +13,27 @@ const SideMenu = () => {
     <SideNav className="sideMenu"
     onSelect={(selected) => {
       console.log(selected)
-        // Add your code here
     }}
 >
     <SideNav.Toggle />
-    <SideNav.Nav defaultSelected="home">
+    <SideNav.Nav defaultSelected="Inicio" >
 
         <img src={logo} alt="logo" className='menuLogo'/>
 
-        <NavItem eventKey="Inicio">
-            <NavIcon>
-                <i className="fa fa-fw fa-home" style={{ fontSize: '1.75em' }} />
-            </NavIcon>
-            <NavText>
-                <Link to="/"> Inicio</Link>
-            </NavText>
-        </NavItem>
+        <Link to="/" className='MenuItm'>
+            <NavItem eventKey="Inicio">
+                    <NavIcon>
+                        <AiFillHome className='ic'/>
+                    </NavIcon>
+                    <NavText>
+                        Inicio
+                    </NavText>
+            </NavItem>
+        </Link>
 
         <NavItem eventKey="aspirante">
             <NavIcon>
-                <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
+                <AiOutlineUserAdd className='ic'/>
             </NavIcon>
             <NavText>
                 Soy aspirante
@@ -38,20 +41,26 @@ const SideMenu = () => {
 
             <NavItem eventKey="aspirante/conoceLaUtl">
                 <NavText>
-                  <Link to="/Aspirante">Conoce la UTL</Link>
+                  <Link to="/Aspirante" className='MenuItm'>Conoce la UTL</Link>
                 </NavText>
             </NavItem>
 
-            <NavItem eventKey="charts/barchart">
+            <NavItem eventKey="aspirante/ofertaEducativa">
+            <NavText>
+                  <Link to="/Aspirante" className='MenuItm'>Oferta educativa</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="aspirante/IngresarEstudiar">
                 <NavText>
-                    Bar Chart
+                    <Link to="/Aspirante" className='MenuItm'>Ingresa a la UTL</Link>
                 </NavText>
             </NavItem>
         </NavItem>
 
         <NavItem eventKey="estudiante">
             <NavIcon>
-                <i className="fa fa-fw fa-line-chart" style={{ fontSize: '1.75em' }} />
+            <PiStudentFill className='ic'/>
             </NavIcon>
             <NavText>
                 Soy estudiante

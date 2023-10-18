@@ -1,5 +1,3 @@
-import FooterInformativo from '../../components/footerInformativo';
-import Footer from '../../components/footerLogoAso';
 import Navbar from '../../components/navbar';
 
 const Aspirante = () => {
@@ -45,12 +43,6 @@ const Aspirante = () => {
               </button>
             </div>
           </div>
-        </div>
-        <div>
-          <Footer />
-        </div>
-        <div>
-          <FooterInformativo />
         </div>
       </div>
     </div>
