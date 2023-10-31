@@ -88,7 +88,7 @@
 }
 
 .text-container h1 {
-  font-size: 4em;
+  font-size: 3em;
   text-transform: uppercase;
 }
 
@@ -342,7 +342,7 @@ a {
 /* Diseño para la pagina Soy UTL */
 .navbar {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-between; 
   align-items: center;
   background-color: #003082;
   color: white;
@@ -382,6 +382,7 @@ a {
   text-align: center;
   flex-grow: 2;
   float: left;
+  color: white;
 }
 
 .right-content {
@@ -412,6 +413,7 @@ a {
   background-color: white;
   list-style: none;
   padding: 0;
+  color: white;
 }
 
 .dropdown-menu li {
