@@ -459,23 +459,69 @@ a {
   flex: 1;
 }
 
-.div-historia{
-  background-color: white;
-  align-items: center;
+.section-buttons button{
+  background-color: #00B394;
+  font-size: 30px;
+  margin-right: 20px;
+  margin-top: 10px;
 }
-.div-historia h1{
+
+.section-buttons button.activate{
+  background-color: #003082;
+}
+
+.Aspirante{
+  background-color: white;
+}
+
+.Aspirante h1 {
   text-align: center;
   color: #003082;
   font-size: 80px;
 }
 
+.Aspirante hr {
+  border: 2px solid #00B394;
+  margin: 20px 0;
+}
+
+.div-historia{
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+}
+
 .div-historia img {
   max-width: 100%;
   height: auto;
+  border-radius: 10%;
+  border: 4px solid #003082;
+}
+
+
+.div-historia-der{
+  flex: 1;
 }
 
 .div-historia p{
-  text-align: justify
+  text-align: justify;
+  padding: 20px;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.carousels-container {
+  display: flex;
+}
+
+.carousel {
+  flex: 1;
+  margin: 10px;
+}
+
+.carousel img {
+  max-width: 100%;
 }
 
 .btn-rectora{
@@ -492,6 +538,144 @@ a {
   color: #000;
   text-align: justify;
 }
+
+.div-filosofia{
+  display: flex;
+  padding: 20px;
+}
+
+.div-filosofia-izq img{
+  max-width: 100%;
+  height: 100vh;
+  border-radius: 10%;
+  border: 4px solid #003082;
+}
+
+.div-filosofiamvv{
+  align-items: center;
+  text-align: justify;
+  flex: 1;
+  padding: 10px;
+}
+
+.div-filosofiamvv hr{
+  border: 2px solid #00B394;
+  margin: 20px 0;
+}
+
+.valores-container{
+  display: flex; 
+  text-align: justify;
+}
+
+.valores-container button{
+  background-color: #003082;
+  color: white;
+  margin-right: 4px;
+  padding: 5px 10px;
+  font-size: 14px;
+}
+
+.valores-container button.active {
+  background-color: #00B394; 
+  color: white;
+}
+
+.valor-content{
+  flex: 1;
+  max-width: 100%;
+}
+
+.div-modeloEducativo{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.div-modeloEducativo img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  border: 4px solid #003082;
+}
+
+.div-modeloEducativo-der{
+  flex: 1;
+}
+
+.div-modeloEducativo p{
+  text-align: justify;
+  padding: 20px;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-becas{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.div-becas img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  border: 4px solid #003082;
+}
+
+.div-becas-der{
+  flex: 1;
+}
+
+.div-becas p{
+  text-align: justify;
+  padding: 20px;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.div-ubicacion{
+  display: flex;
+  align-items: center;
+  padding: 20px;
+}
+
+.div-ubicacion img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10%;
+  border: 4px solid #003082;
+}
+
+.div-ubicacion-der{
+  flex: 1;
+}
+
+.div-ubicacion p{
+  text-align: justify;
+  padding: 20px;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.ubicacion{
+  padding: 20px;
+}
+
+.custom-card {
+  height: 60vh; /* Establece la altura fija que desees */
+}
+
+.custom-card img{
+  height: 100%;
+}
+
+.custom-card a{
+  background-color: #00B394;
+}
+
+.custom-card a:hover{
+  background-color: #003082;
+}
+
+
 
 @media screen and (max-width: 768px) {
   .carousel-inner img {

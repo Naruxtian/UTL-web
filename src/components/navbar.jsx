@@ -158,7 +158,7 @@ const Navbar = () => {
                                     </div>
                                     <div className="modal-body">
                                         <div>
-                                            <img src="https://www.utleon.edu.mx/resource/img/imagenes/1.1.1.jpeg" alt="" />
+                                            <img src="/src/assets/img/RectoraAspirante.jpeg" alt="" />
                                             <p>
                                                 Es un gusto muy especial dirigirme a ti, apreciable aspirante.
                                                 En la Universidad Tecnológica de León, te abrimos las puertas para que formes parte de nuestra familia, ya que contamos con una gama muy amplia de carreras universitarias para preparar a los futuros profesionistas que requiere León y Guanajuato.
