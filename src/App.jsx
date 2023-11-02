@@ -9,6 +9,7 @@ import FooterInformativo from "./components/footerInformativo";
 import Contactanos from "./pages/aspirante/Contactanos";
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './App.css'
+import Background from './components/background';
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -16,6 +17,7 @@ function App() {
   return (
     <>
       <SideMenu show={showNav}/> 
+      <Background />
       <div className='container'>
         <Routes>          
               <Route index element={<Inicio/>} />
