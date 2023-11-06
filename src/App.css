@@ -6,6 +6,12 @@
   box-sizing: content-box;
 }
 
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+
 .menuSuperior{
   display: absolute;
   width: 100%;
@@ -124,6 +130,10 @@
   padding: 10px;
 }
 
+h1 {
+  font-size: 4vw;
+}
+
 .buttonC {
   background-color: #007BFF;
   color: white; 
@@ -131,7 +141,7 @@
   border: 2px solid #0056b3;
   border-radius: 10px;
   padding: 10px 20px;
-  font-size: 50px;
+  font-size: 2vw;
 }
 
 .buttonC:hover{
@@ -463,13 +473,17 @@ a {
 
 .section-buttons button{
   background-color: #00B394;
-  font-size: 30px;
-  margin-right: 20px;
+  font-size: 2vw;
+  margin-right: 2vw;
   margin-top: 10px;
 }
 
 .section-buttons button.activate{
   background-color: #003082;
+}
+
+.section-buttons button:hover{
+  background-color: #007BFF;
 }
 
 .Aspirante{
@@ -690,9 +704,57 @@ a {
   }
 }
 
+
 .ft{
   width: 95vw;
   /* llevar el contenido a la derecha */
   margin-left: auto; 
   
+}
+
+
+.card {
+  width: 90%;
+  margin: 5%;
+}
+
+.modal-content {
+  width: 80%;
+  padding: 5%;
+}
+
+
+/* Estilos para el botón personalizado */
+.custom-button {
+  background-color: #003082;
+  color: #fff; 
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+
+.custom-button:hover {
+  background-color: #00B394; 
+}
+
+
+.button-text {
+  margin-right: 10px;
+}
+
+.button-icon {
+  color: yellow; 
+  font-size: 24px;
+  vertical-align: middle;
+}
+
+
+.custom-modal {
+  width: 80%; 
+  margin: 0 auto; 
 }

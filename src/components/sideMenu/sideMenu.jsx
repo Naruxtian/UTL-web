@@ -68,7 +68,7 @@ const SideMenu = () => {
         
             <NavItem eventKey="estudiante/a">
                 <NavText>
-                    A
+                    <Link to="/Estudiante" className='MenuItm'>Tramites Escolares</Link>
                 </NavText>
 
             </NavItem>

@@ -10,6 +10,7 @@ import Contactanos from "./pages/aspirante/Contactanos";
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './App.css'
 import Background from './components/background';
+import Estudiante from './pages/estudiante/Estudiante';
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -23,6 +24,7 @@ function App() {
               <Route index element={<Inicio/>} />
               <Route path="/" element={<Inicio/>}/>
               <Route path="/Aspirante" element={<Aspirante/>}/>
+              <Route path="/Estudiante" element={<Estudiante/>}/>
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
       </div>
