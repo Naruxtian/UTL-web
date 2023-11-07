@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const Navbar = () => {
+const Navbar = ({modulo}) => {
 
     const [mostrarContenidoModulo, setMostrarContenidoModulo] = useState(false);
     const [mostrarContenidoModuloM, setMostrarContenidoModuloM] = useState(false);
@@ -90,7 +90,7 @@ const Navbar = () => {
                 </div>
                 <div className='div-dropdown'>
                     <div className="center-content">
-                        <h1>Soy aspirante</h1>
+                        <h1>Soy {modulo}</h1>
                     </div>
                     
                     <button className="dropdown-button d-block d-lg-none" onClick={handleMostrarContenidoModuloM}>

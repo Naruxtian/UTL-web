@@ -248,7 +248,7 @@ const Administrativo = () => {
 
   return (
     <div>
-        <Navbar />
+        <Navbar modulo={"administrativo"} />
         <div className="section-buttons">
           <button className='btn ' onClick={() => handleSectionChange('Recursos')}>Recursos Para La Gestión Administrativa</button>
           <button className='btn' onClick={() => handleSectionChange('Desarrollo')}>Desarrollo Humano y Organizacional</button>

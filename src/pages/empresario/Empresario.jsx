@@ -420,7 +420,7 @@ const Empresario = () => {
 
   return (
     <div>
-        <Navbar />
+        <Navbar modulo={"empresario"} />
         <div className="section-buttons">
           <button className='btn ' onClick={() => handleSectionChange('Conoce')}>Conoce la UTL</button>
           <button className='btn' onClick={() => handleSectionChange('Desarrollo')}>Desarrollo Humano y Organizacional</button>

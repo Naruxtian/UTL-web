@@ -529,7 +529,7 @@ const Estudiante = () => {
 
   return (
     <div>
-        <Navbar />
+        <Navbar modulo={"estudiante"} />
         <div className='section-buttons'>
             <button className='btn ' onClick={() => handleSectionChange('Tramites')}>Trámites Escolares</button>
             <button className='btn' onClick={() => handleSectionChange('Servicios')}>Servicios Integrales Para El Alumnado</button>

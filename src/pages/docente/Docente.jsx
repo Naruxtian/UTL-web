@@ -273,7 +273,7 @@ const Docente = () => {
 
   return (
     <div>
-        <Navbar />
+        <Navbar modulo={"docente"} />
         <div className="section-buttons">
           <button className='btn ' onClick={() => handleSectionChange('Recursos')}>Recursos Para La Gestión Docente</button>
           <button className='btn'><a href="https://www.utleon.edu.mx/resource/documentos/CIV_Solicitud%202%20Politicas%20de%20carga%20acad%C3%A9mica.pdf" target='_blank'>NORMATIVA</a></button>
