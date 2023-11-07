@@ -1,8 +1,9 @@
 .sideMenu{
-    background-color: #003082;
+    background-color: #2a58a7;
     position: fixed;
     font-family: 'Roboto', sans-serif;
     font-size: 1.2rem;
+    width: 70px;
 }
 
 .menuLogo{
@@ -17,5 +18,10 @@
 
 .MenuItm {
     text-decoration: none;
-    color: #00B394;
+    color: #00B394; 
+}
+
+.iconoInicio{
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
