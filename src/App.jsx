@@ -11,6 +11,10 @@ import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './App.css'
 import Background from './components/background';
 import Estudiante from './pages/estudiante/Estudiante';
+import Docente from './pages/docente/Docente';
+import Administrativo from './pages/administrativo/Administrativo';
+import Empresario from './pages/empresario/Empresario';
+import Egresado from './pages/egresado/Egresado';
 
 function App() {
   const [showNav, setShowNav] = useState(false);
@@ -25,6 +29,10 @@ function App() {
               <Route path="/" element={<Inicio/>}/>
               <Route path="/Aspirante" element={<Aspirante/>}/>
               <Route path="/Estudiante" element={<Estudiante/>}/>
+              <Route path="/Docente" element={<Docente/>}/>
+              <Route path="/Administrativo" element={<Administrativo/>}/>
+              <Route path="/Empresario" element={<Empresario/>}/>
+              <Route path="/Egresado" element={<Egresado/>}/>
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
       </div>
