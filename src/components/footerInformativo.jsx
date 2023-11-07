@@ -1,3 +1,4 @@
+//mi rama
 const FooterInformativo = () => {
   return (
     <div className="">
