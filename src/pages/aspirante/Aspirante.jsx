@@ -242,7 +242,7 @@ const Aspirante = () => {
             </div>
           </div>
           <div className="col ubicacion"><div className="row justify-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4427.500424414372!2d-101.57605742203658!3d21.069896779806143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b962c40501be9%3A0x6f8a0c54cf13cf56!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n%20Campus%20II!5e0!3m2!1ses-419!2smx!4v1652122525705!5m2!1ses-419!2smx" width="900" height="400" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
-          </div>
+          </div> <br /> <br />
         </div>
       ),
       OfertaEducativa: (
@@ -268,7 +268,7 @@ const Aspirante = () => {
                 <Card key={index} title={card.title} imageSrc={card.imageSrc} />
               ))}
             </div>
-          </div> <br />
+          </div> <br /> <br />
         </div>
       ),
       Admisiones: (
@@ -280,7 +280,7 @@ const Aspirante = () => {
           <div className='Aspirante'>
             <h1>Admisiones Ingenierias y Licenciaturas</h1>
             <div><div><iframe title="DIAGRAMA NÚMEROS" frameborder="0" width="1000px" height="675px" src="https://view.genial.ly/6470f08a4ee68f0019b5b74f" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
-          </div>
+          </div> <br /> <br />
         </div>
       ),
     };

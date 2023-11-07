@@ -4,9 +4,12 @@ import { Link } from "react-router-dom";
 import logo from "../../assets/img/utlLogoWhite.png";
 import { AiFillHome, AiOutlineUserAdd } from "react-icons/ai";
 import { PiStudentFill } from "react-icons/pi";
-import "@trendmicro/react-sidenav/dist/react-sidenav.css";
-import "./sideMenu.css";
-//mi rama
+import { SiGoogleclassroom } from "react-icons/si";
+import { FaUserTie } from "react-icons/fa";
+import { MdWork } from "react-icons/md";
+import '@trendmicro/react-sidenav/dist/react-sidenav.css';
+import './sideMenu.css'
+
 const SideMenu = () => {
   return (
     <SideNav
@@ -71,7 +74,210 @@ const SideMenu = () => {
                 Tramites Escolares
               </Link>
             </NavText>
-          </NavItem>
+        
+            <NavItem eventKey="estudiante/a">
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Tramites Escolares</Link>
+                </NavText>
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Servicios Integrales Para El Alumnado</Link>
+                </NavText>
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Órganos Colegiados</Link>
+                </NavText>
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Normativa Estudiantil</Link>
+                </NavText>
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Quejas y Denuncias</Link>
+                </NavText>
+
+            </NavItem>
+
+            <NavItem eventKey="estudiante/a">
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Servicios Integrales Para El Alumnado</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="estudiante/a">
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Órganos Colegiados</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="estudiante/a">
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Normativa Estudiantil</Link>
+                </NavText>
+            </NavItem>
+            <NavItem eventKey="estudiante/a">
+                <NavText>
+                    <Link to="/Estudiante" className='MenuItm'>Quejas y Denuncias</Link>
+                </NavText>
+
+            </NavItem>
+            
+        </NavItem>
+
+        <NavItem eventKey="docente">
+            <NavIcon>
+            <SiGoogleclassroom className='ic'/>
+            </NavIcon>
+            <NavText>
+                Soy docente
+            </NavText>
+        
+            <NavItem eventKey="docente/a">
+                <NavText>
+                    <Link to="/Docente" className='MenuItm'>Recursos Para La Gestión Docente</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="docente/a">
+                <NavText>
+                    <Link to="/Docente" className='MenuItm'>Desarrollo Académico y Docente</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="docente/a">
+                <NavText>
+                    <Link to="/Docente" className='MenuItm'>Investigacion UTL</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="docente/a">
+                <NavText>
+                    <Link to="/Docente" className='MenuItm'>Salud Integral</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="docente/a">
+                <NavText>
+                    <Link to="/Docente" className='MenuItm'>Órganos Colegiados</Link>
+                </NavText>
+            </NavItem>
+            
+        </NavItem>
+
+        <NavItem eventKey="administrativo">
+            <NavIcon>
+            <FaUserTie className='ic'/>
+            </NavIcon>
+            <NavText>
+                Soy administrativo/a
+            </NavText>
+        
+            <NavItem eventKey="administrativo/a">
+                <NavText>
+                    <Link to="/Administrativo" className='MenuItm'>Recursos Para La Gestión Administrativa</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="administrativo/a">
+                <NavText>
+                    <Link to="/Administrativo" className='MenuItm'>Desarrollo Humano y Organizacional</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="administrativo/a">
+                <NavText>
+                    <Link to="/Administrativo" className='MenuItm'>Órganos Colegiados</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="administrativo/a">
+                <NavText>
+                    <Link to="/Administrativo" className='MenuItm'>Transparencia</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="administrativo/a">
+                <NavText>
+                    <Link to="/Administrativo" className='MenuItm'>Salud Integral</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="administrativo/a">
+                <NavText>
+                    <Link to="/Administrativo" className='MenuItm'>Seguridad Institucional</Link>
+                </NavText>
+            </NavItem>
+            
+        </NavItem>
+
+        <NavItem eventKey="empresario">
+            <NavIcon>
+            <MdWork className='ic'/>
+            </NavIcon>
+            <NavText>
+                Soy empresario/a
+            </NavText>
+        
+            <NavItem eventKey="empresario/a">
+                <NavText>
+                    <Link to="/Empresario" className='MenuItm'>Conoce la UTL</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="empresario/a">
+                <NavText>
+                    <Link to="/Empresario" className='MenuItm'>Desarrollo Humano y Organizacional</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="empresario/a">
+                <NavText>
+                    <Link to="/Empresario" className='MenuItm'>Programas Educativos</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="empresario/a">
+                <NavText>
+                    <Link to="/Empresario" className='MenuItm'>Vinculacion</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="empresario/a">
+                <NavText>
+                    <Link to="/Empresario" className='MenuItm'>Servicios</Link>
+                </NavText>
+            </NavItem>
+            
+        </NavItem>
+
+        <NavItem eventKey="egresado">
+            <NavIcon>
+            <PiStudentFill className='ic'/>
+            </NavIcon>
+            <NavText>
+                Soy egresado/a
+            </NavText>
+        
+            <NavItem eventKey="egresado/a">
+                <NavText>
+                    <Link to="/Egresado" className='MenuItm'>Bolsa de Trabajo</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="egresado/a">
+                <NavText>
+                    <Link to="/Egresado" className='MenuItm'>Emprendimiento</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="egresado/a">
+                <NavText>
+                    <Link to="/Egresado" className='MenuItm'>Educacion</Link>
+                </NavText>
+            </NavItem>
+
+            <NavItem eventKey="egresado/a">
+                <NavText>
+                    <Link to="/Egresado" className='MenuItm'>Quieres Laborar en UTL?</Link>
+                </NavText>
+            </NavItem>
+            
         </NavItem>
       </SideNav.Nav>
     </SideNav>
