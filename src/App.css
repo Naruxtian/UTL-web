@@ -575,7 +575,8 @@ h1 a{
 }
 
 .Aspirante{
-  background-color: white;
+  background-color: rgb(255, 255, 255, 0.7);
+  border-radius: 20px;
 }
 
 .Aspirante h1 {
@@ -594,7 +595,6 @@ h1 a{
 }
 
 .div-historia{
-  background-color: white;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -653,9 +653,11 @@ h1 a{
 }
 
 .div-filosofia-izq img{
-  max-width: 100%;
-  height: 100vh;
+  height: 20rem;
+  width: 80%;
   border-radius: 10%;
+  margin-top: 15%;
+  margin-top: 15%;
   border: 4px solid #003082;
 }
 
