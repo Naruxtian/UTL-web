@@ -34,7 +34,7 @@ const SideMenu = () => {
                 </NavText>
         </NavItem>
         
-        <NavItem eventKey="aspirante">
+        <NavItem eventKey="Aspirante">
             <NavIcon>
                 <AiOutlineUserAdd className='ic'/>
             </NavIcon>
@@ -61,7 +61,7 @@ const SideMenu = () => {
             </NavItem> */}
         </NavItem>
 
-        <NavItem eventKey="estudiante">
+        <NavItem eventKey="Estudiante">
             <NavIcon>
             <PiStudentFill className='ic'/>
             </NavIcon>
@@ -145,7 +145,7 @@ const SideMenu = () => {
             
         </NavItem>
 
-        <NavItem eventKey="docente">
+        <NavItem eventKey="Docente">
             <NavIcon>
             <SiGoogleclassroom className='ic'/>
             </NavIcon>
@@ -185,7 +185,7 @@ const SideMenu = () => {
             
         </NavItem>
 
-        <NavItem eventKey="administrativo">
+        <NavItem eventKey="Administrativo">
             <NavIcon>
             <FaUserTie className='ic'/>
             </NavIcon>
@@ -231,7 +231,7 @@ const SideMenu = () => {
             
         </NavItem>
 
-        <NavItem eventKey="empresario">
+        <NavItem eventKey="Empresario">
             <NavIcon>
             <MdWork className='ic'/>
             </NavIcon>
@@ -271,7 +271,7 @@ const SideMenu = () => {
             
         </NavItem>
 
-        <NavItem eventKey="egresado">
+        <NavItem eventKey="Egresado">
             <NavIcon>
             <PiStudentFill className='ic'/>
             </NavIcon>

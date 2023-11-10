@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar";
 
 const SomosUtl = () => {
   const [activeValue, setActiveValue] = useState(null);
-  const [activeSection, setActiveSection] = useState("Conocenos");
+  const [activeSection, setActiveSection] = useState("ConoceUtl");
   const [isModalOpen, setModalOpen] = useState(false);
 
   const handleSectionChange = (section) => {
