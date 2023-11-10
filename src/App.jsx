@@ -7,16 +7,15 @@ import SideMenu from "./components/sideMenu/sideMenu";
 import Footer from "./components/footerLogoAso";
 import FooterInformativo from "./components/footerInformativo";
 import Contactanos from "./pages/aspirante/Contactanos";
-import '@trendmicro/react-sidenav/dist/react-sidenav.css';
-import './App.css'
-import Background from './components/background';
-import Estudiante from './pages/estudiante/Estudiante';
-import Docente from './pages/docente/Docente';
-import Administrativo from './pages/administrativo/Administrativo';
-import Empresario from './pages/empresario/Empresario';
-import Egresado from './pages/egresado/Egresado';
-import SomosUtl from './pages/somosUtl/somosUtl';
-
+import "@trendmicro/react-sidenav/dist/react-sidenav.css";
+import "./App.css";
+import Background from "./components/background";
+import Estudiante from "./pages/estudiante/Estudiante";
+import Docente from "./pages/docente/Docente";
+import Administrativo from "./pages/administrativo/Administrativo";
+import Empresario from "./pages/empresario/Empresario";
+import Egresado from "./pages/egresado/Egresado";
+import SomosUtl from "./pages/somosUtl/somosUtl";
 
 //mi rama
 function App() {
@@ -24,7 +23,6 @@ function App() {
 
   return (
     <>
-      <SideMenu show={showNav} />
       <Background />
       <div className='DisplayContainer'>
         <Routes>          
