@@ -16,7 +16,7 @@
   color: white;
   font-size: 100px;
   margin-right: 100px;
-  white-space: nowrap; /* Evita que el texto se divida en varias líneas */
+  white-space: wrap; 
   overflow: hidden; /* Oculta cualquier texto que se desborde */
   text-overflow: ellipsis; /* Agrega puntos suspensivos (...) si el texto se desborda horizontalmente */
   font-size: 100px; /* Tamaño de fuente inicial */
