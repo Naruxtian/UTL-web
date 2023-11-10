@@ -23,6 +23,7 @@ function App() {
 
   return (
     <>
+    <SideMenu showNav={showNav} setShowNav={setShowNav} />
       <Background />
       <div className='DisplayContainer'>
         <Routes>          
@@ -37,10 +38,10 @@ function App() {
               <Route path="/SomosUtl" element={<SomosUtl/>}/>
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
-        <div className="ft">
-          <Footer />
-          <FooterInformativo />
-        </div>
+      </div>
+      <div className="ft">
+        <Footer />
+        <FooterInformativo />
       </div>
     </>
   );

@@ -834,7 +834,7 @@ h1 a{
 
 
 .ft{
-  width: 95vw;
+  width: 92vw;
   /* llevar el contenido a la derecha */
   margin-left: auto; 
   
@@ -963,11 +963,11 @@ h1 a{
   justify-content: space-between;
   */
   margin: 0 auto; 
-  width: 80%;
+  width: 88%;
 }
 @media screen and (max-width: 768px) {
   .DisplayContainer{
-    margin-left: 30%;
+    margin-left: 20%;
     width: 70%;
   }
 
