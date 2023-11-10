@@ -72,7 +72,38 @@ const SideMenu = () => {
         
             {/* <NavItem eventKey="estudiante/a">
                 <NavText>
-                    <Link to="/Estudiante" className='MenuItm'>Tramites Escolares</Link>
+                    <Link to="/somosUtl" className='MenuItm'>Tramites Escolares</Link>
+                </NavText>
+
+            </NavItem>
+            
+        </NavItem>
+
+        <NavItem eventKey="somosUtl">
+            <NavIcon>
+            <PiStudentFill className='ic'/>
+            </NavIcon>
+            <NavText>
+                Somos UTL
+            </NavText>
+        
+            <NavItem eventKey="somosUtl/conoceLaUtl">
+                <NavText>
+                    <Link to="/SomosUtl" className='MenuItm'>Conoce Utl</Link>
+                </NavText>
+
+            </NavItem>
+
+            <NavItem eventKey="somosUtl/a">
+                <NavText>
+                    <Link to="/somosUtl" className='MenuItm'>Calidad</Link>
+                </NavText>
+
+            </NavItem>
+
+            <NavItem eventKey="somosUtl/a">
+                <NavText>
+                    <Link to="/somosUtl" className='MenuItm'>Tramites Escolares</Link>
                 </NavText>
                 <NavText>
                     <Link to="/Estudiante" className='MenuItm'>Servicios Integrales Para El Alumnado</Link>

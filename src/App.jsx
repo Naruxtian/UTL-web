@@ -15,6 +15,8 @@ import Docente from './pages/docente/Docente';
 import Administrativo from './pages/administrativo/Administrativo';
 import Empresario from './pages/empresario/Empresario';
 import Egresado from './pages/egresado/Egresado';
+import SomosUtl from './pages/somosUtl/somosUtl';
+
 
 //mi rama
 function App() {
@@ -34,6 +36,7 @@ function App() {
               <Route path="/Administrativo" element={<Administrativo/>}/>
               <Route path="/Empresario" element={<Empresario/>}/>
               <Route path="/Egresado" element={<Egresado/>}/>
+              <Route path="/SomosUtl" element={<SomosUtl/>}/>
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
       </div>
