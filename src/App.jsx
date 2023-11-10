@@ -26,7 +26,7 @@ function App() {
     <>
       <SideMenu show={showNav} />
       <Background />
-      <div className='container'>
+      <div className='DisplayContainer'>
         <Routes>          
               <Route index element={<Inicio/>} />
               <Route path="/" element={<Inicio/>}/>
@@ -39,10 +39,10 @@ function App() {
               <Route path="/SomosUtl" element={<SomosUtl/>}/>
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
-      </div>
-      <div className="ft">
-        <Footer />
-        <FooterInformativo />
+        <div className="ft">
+          <Footer />
+          <FooterInformativo />
+        </div>
       </div>
     </>
   );

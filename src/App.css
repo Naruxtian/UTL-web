@@ -943,11 +943,20 @@ h1 a{
 }
 
 
-.container {
+.DisplayContainer {
+  /* 
   display: flex;
   justify-content: space-between;
-  max-width: 800px;
-  margin: 0 auto;
+  */
+  margin: 0 auto; 
+  width: 80%;
+}
+@media screen and (max-width: 768px) {
+  .DisplayContainer{
+    margin-left: 30%;
+    width: 70%;
+  }
+
 }
 
 .card-s {
