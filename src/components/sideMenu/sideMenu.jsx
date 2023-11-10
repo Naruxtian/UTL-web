@@ -5,7 +5,7 @@ import logo from '../../assets/img/utlLogoWhite.png'
 import { AiFillHome, AiOutlineUserAdd } from "react-icons/ai";
 import { PiStudentFill } from "react-icons/pi";
 import { SiGoogleclassroom } from "react-icons/si";
-import { FaUserTie } from "react-icons/fa";
+import { FaUserTie, FaSchool } from "react-icons/fa";
 import { MdWork } from "react-icons/md";
 import '@trendmicro/react-sidenav/dist/react-sidenav.css';
 import './sideMenu.css'
@@ -17,7 +17,6 @@ const SideMenu = () => {
   return (
     <SideNav className="sideMenu"
     onSelect={(selected) => {
-      console.log(selected)
       navigate(`/${selected}`)
     }}
 >
@@ -303,7 +302,16 @@ const SideMenu = () => {
                     <Link to="/Egresado" className='MenuItm'>Quieres Laborar en UTL?</Link>
                 </NavText>
             </NavItem> */}
-            
+        </NavItem>
+
+        <NavItem eventKey="SomosUtl">
+            <NavIcon>
+            <FaSchool className='ic'/>
+            </NavIcon>
+            <NavText>
+                Somos UTL
+            </NavText>
+        
         </NavItem>
 
     </SideNav.Nav>

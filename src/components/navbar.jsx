@@ -90,7 +90,12 @@ const Navbar = ({modulo}) => {
                 </div>
                 <div className='div-dropdown'>
                     <div className="center-content">
-                        <h1>Soy {modulo}</h1>
+                        {
+                            modulo === 'Somos UTL' ?                    
+                            <h1>Somos UTL</h1>
+                            :
+                            <h1>Soy {modulo}</h1>
+                        }
                     </div>
                     
                     <button className="dropdown-button d-block d-lg-none" onClick={handleMostrarContenidoModuloM}>

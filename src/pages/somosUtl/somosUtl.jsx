@@ -432,7 +432,7 @@ const SomosUtl = () => {
 
   return (
     <div>
-      <Navbar />
+      <Navbar modulo={"Somos UTL"} />
       <div className="section-buttons">
         <button
           className="btn "
