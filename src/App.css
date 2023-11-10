@@ -26,7 +26,6 @@
 
 .logoPrincipal{
   width: 15%;
-  border-right: solid white 2px;
   padding-right: 20px;
 }
 
@@ -107,12 +106,21 @@ img {
 }
 
 .div-opciones {
-  display: flex;
-  align-items: center;
-  width: 100%;
-  height: auto;
   border-bottom: solid white 1px;
+}
+
+.div-opciones2{
+  border-top: solid white 1px;
+
+}
+
+.div-opciones2 a{
+   color: white;
   
+}
+.div-opciones a{
+  color: white;
+ 
 }
 
 /* .titulo{
@@ -188,6 +196,12 @@ h1 {
   background-color: #0056b3;
 }
 
+
+.nav-link{
+color: white;
+font-size: large;
+}
+
 .div-centrado{
   position: absolute;
   top: 50%;
@@ -232,7 +246,7 @@ h1 {
 
 .botonConocenos{
   height: auto;
-  margin-top: 18%;
+  margin-top: 2000%;
   
 
 }
@@ -277,7 +291,7 @@ h1 a{
   background-color: #fff;
   top: 50%;
   left: 50%;
-  transform: translate(-50%, -50%);
+  transform: translate(-50%, 1%);
   padding: 20px;
 }
 

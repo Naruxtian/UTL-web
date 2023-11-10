@@ -7,14 +7,14 @@ import SideMenu from "./components/sideMenu/sideMenu";
 import Footer from "./components/footerLogoAso";
 import FooterInformativo from "./components/footerInformativo";
 import Contactanos from "./pages/aspirante/Contactanos";
-import '@trendmicro/react-sidenav/dist/react-sidenav.css';
-import './App.css'
-import Background from './components/background';
-import Estudiante from './pages/estudiante/Estudiante';
-import Docente from './pages/docente/Docente';
-import Administrativo from './pages/administrativo/Administrativo';
-import Empresario from './pages/empresario/Empresario';
-import Egresado from './pages/egresado/Egresado';
+import "@trendmicro/react-sidenav/dist/react-sidenav.css";
+import "./App.css";
+import Background from "./components/background";
+import Estudiante from "./pages/estudiante/Estudiante";
+import Docente from "./pages/docente/Docente";
+import Administrativo from "./pages/administrativo/Administrativo";
+import Empresario from "./pages/empresario/Empresario";
+import Egresado from "./pages/egresado/Egresado";
 
 //mi rama
 function App() {
@@ -24,16 +24,16 @@ function App() {
     <>
       <SideMenu show={showNav} />
       <Background />
-      <div className='container'>
-        <Routes>          
-              <Route index element={<Inicio/>} />
-              <Route path="/" element={<Inicio/>}/>
-              <Route path="/Aspirante" element={<Aspirante/>}/>
-              <Route path="/Estudiante" element={<Estudiante/>}/>
-              <Route path="/Docente" element={<Docente/>}/>
-              <Route path="/Administrativo" element={<Administrativo/>}/>
-              <Route path="/Empresario" element={<Empresario/>}/>
-              <Route path="/Egresado" element={<Egresado/>}/>
+      <div className="container">
+        <Routes>
+          <Route index element={<Inicio />} />
+          <Route path="/" element={<Inicio />} />
+          <Route path="/Aspirante" element={<Aspirante />} />
+          <Route path="/Estudiante" element={<Estudiante />} />
+          <Route path="/Docente" element={<Docente />} />
+          <Route path="/Administrativo" element={<Administrativo />} />
+          <Route path="/Empresario" element={<Empresario />} />
+          <Route path="/Egresado" element={<Egresado />} />
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
       </div>

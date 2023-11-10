@@ -38,185 +38,37 @@ const Inicio = () => {
     <>
       <div className="">
         <div className="div-opciones">
-          <div className="div-herramientas">
-            <br />
-            <button
-              onClick={handleMostrarContenidoHerramientas}
-              className="btn btn-info d-none  btn-lg d-lg-block textoBotones  "
-            >
-              {mostrarContenidoHerramientas
-                ? "Herramientas institucionales"
-                : "Herramientas institucionales"}
-            </button>
-            {mostrarContenidoHerramientas && (
-              <div className="div-aparicion">
-                <p>
-                  <a href="">Aula Virtual</a>
-                </p>
-                <p>
-                  <a href="">Calendario Escolar 2023-2024</a>
-                </p>
-                <p>
-                  <a href="">Correo Electronico</a>
-                </p>
-                <p>
-                  <a href="">SITO</a>
-                </p>
-                <p>
-                  <a href="">Biblioteca Digital</a>
-                </p>
-              </div>
-            )}
-            <button
-              onClick={handleMostrarContenidoHerramientasM}
-              className="btn btn-info d-block d-lg-none"
-            >
-              {mostrarContenidoHerramientasM
-                ? "Herramientas institucionales"
-                : "Herramientas institucionales"}
-            </button>
-            {mostrarContenidoHerramientasM && (
-              <div
-                className={`modal fade ${
-                  handleMostrarContenidoHerramientasM ? "show" : ""
-                }`}
-                tabIndex="-1"
-                role="dialog"
-                style={{
-                  display: handleMostrarContenidoHerramientasM
-                    ? "block"
-                    : "none",
-                }}
-              >
-                <div
-                  className="modal-dialog modal-dialog-centered"
-                  role="document"
-                >
-                  <div className="modal-content">
-                    <div className="modal-header">
-                      <h5 className="modal-title">
-                        Herramientas institucionales
-                      </h5>
-                      <button
-                        className="btn btn-danger  close"
-                        onClick={handleMostrarContenidoHerramientasM}
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div className="modal-body">
-                      <p>
-                        <a href="">Aula Virtual</a>
-                      </p>
-                      <p>
-                        <a href="">Calendario Escolar 2023-2024</a>
-                      </p>
-                      <p>
-                        <a href="">Correo Electrónico</a>
-                      </p>
-                      <p>
-                        <a href="">SITO</a>
-                      </p>
-                      <p>
-                        <a href="">Biblioteca Digital</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
-          <div className="centrado text-center">
-            <button
-              onClick={handleMostrarContenidoConocenos}
-              className="btn btn-primary btn-lg d-none d-lg-block botonConocenos"
-            >
-              {mostrarContenidoConocenos ? "Conocenos" : "Conocenos"}
-            </button>
-            {mostrarContenidoConocenos && (
-              <div className="div-aparicion">
-                <p>
-                  <a href="">¿Quiénes somos?</a>
-                </p>
-                <p>
-                  <a href="">Mensaje Institucional</a>
-                </p>
-                <p>
-                  <a href="">Noticias</a>
-                </p>
-                <p>
-                  <a href="">Transparencia</a>
-                </p>
-                <p>
-                  <a href="">UTL en Cifras</a>
-                </p>
-                <p>
-                  <a href="">Normativa</a>
-                </p>
-                <p>
-                  <a href="">¿Quieres trabajar en UTL?</a>
-                </p>
-              </div>
-            )}
-            <button
-              onClick={handleMostrarContenidoConocenosM}
-              className="btn btn-primary btn-lg buttonC d-block d-lg-none"
-            >
-              {mostrarContenidoConocenosM ? "Conocenos" : "Conocenos"}
-            </button>
-            {mostrarContenidoConocenosM && (
-              <div
-                className={`modal fade ${
-                  handleMostrarContenidoConocenosM ? "show" : ""
-                }`}
-                tabIndex="-1"
-                role="dialog"
-                style={{
-                  display: handleMostrarContenidoConocenosM ? "block" : "none",
-                }}
-              >
-                <div
-                  className="modal-dialog modal-dialog-centered"
-                  role="document"
-                >
-                  <div className="modal-content">
-                    <div className="modal-header">
-                      <h5 className="modal-title">Conocenos</h5>
-                      <button
-                        className="btn btn-danger  close"
-                        onClick={handleMostrarContenidoConocenosM}
-                      >
-                        <span aria-hidden="true">&times;</span>
-                      </button>
-                    </div>
-                    <div className="modal-body">
-                      <p>
-                        <a href="">¿Quiénes somos?</a>
-                      </p>
-                      <p>
-                        <a href="">Mensaje Institucional</a>
-                      </p>
-                      <p>
-                        <a href="">Noticias</a>
-                      </p>
-                      <p>
-                        <a href="">Transparencia</a>
-                      </p>
-                      <p>
-                        <a href="">UTL en Cifras</a>
-                      </p>
-                      <p>
-                        <a href="">Normativa</a>
-                      </p>
-                      <p>
-                        <a href="">¿Quieres trabajar en UTL?</a>
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            )}
-          </div>
+          <ul className="nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Aula Virtual
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Calendario Escolar 2023-2024
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Correo Electronico
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                SITO
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Biblioteca Digital
+              </a>
+            </li>
+          </ul>
         </div>
 
         <div className=" div-inicio">
@@ -297,6 +149,52 @@ const Inicio = () => {
             </a>
           </div>
           <br />
+        </div>
+
+        <div className="div-opciones2">
+          <ul className="nav">
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                ¿Quiénes somos?
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Mensaje Institucional
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Noticias
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Transparencia
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                UTL en Cifras
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                Normativa
+              </a>
+            </li>
+
+            <li className="nav-item">
+              <a className="nav-link" href="#">
+                ¿Quieres trabajar en UTL?
+              </a>
+            </li>
+          </ul>
         </div>
       </div>
     </>
