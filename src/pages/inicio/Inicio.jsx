@@ -54,19 +54,19 @@ const Inicio = () => {
                 {mostrarContenidoHerramientas && (
                   <div className="div-aparicion">
                     <p>
-                      <a href="">Aula Virtual</a>
+                      <a href="https://utleon.edu.mx/aula-virtual">Aula Virtual</a>
                     </p>
                     <p>
-                      <a href="">Calendario Escolar 2023-2024</a>
+                      <a href="https://utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N.jpg">Calendario Escolar 2023-2024</a>
                     </p>
                     <p>
-                      <a href="">Correo Electronico</a>
+                      <a href="https://www.office.com/">Correo Electronico</a>
                     </p>
                     <p>
-                      <a href="">SITO</a>
+                      <a href="https://sito.utleon.edu.mx/">SITO</a>
                     </p>
                     <p>
-                      <a href="">Biblioteca Digital</a>
+                      <a href="https://utleon.edu.mx/biblioteca-digital">Biblioteca Digital</a>
                     </p>
                   </div>
                 )}
