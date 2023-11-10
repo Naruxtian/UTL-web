@@ -84,15 +84,14 @@ const Aspirante = () => {
   ];
 
   const Card = ({ title, imageSrc }) => (
-    <div className="col-4">
+    <div className="">
       <div className="card2 custom-card">
         <img src={imageSrc} className="card-img-top" alt="Imagen" />
         <div className="card-body">
-        <a href="Carrera.jsx" className="btn btn-primary">
+          <a href="Carrera.jsx" className="btn btn-primary">
             Leer más
           </a>
           <h5 className="card-title">{title}</h5>
-          
         </div>
       </div>
     </div>
@@ -385,36 +384,35 @@ const Aspirante = () => {
         <br /> <br />
         <div className="Aspirante">
           <h1>Ubicaciones</h1>
-<hr />
+          <hr />
           <h4>Campus Central</h4>
           <div className="primerMapa">
-              <div className="div-ubicacion">
-                <p>
-                    La Universidad Tecnológica de León se ubica al sureste de la
-                    ciudad de León, Guanajuato, a un costado del Hospital
-                    Regional de Alta Especialidad del Bajío, a la altura del
-                    Puente del Milenio.
-                  </p>
-                  <img src="/src/assets/img/CampusCentral.jpg" alt="" />
-                </div>
+            <div className="div-ubicacion">
+              <p>
+                La Universidad Tecnológica de León se ubica al sureste de la
+                ciudad de León, Guanajuato, a un costado del Hospital Regional
+                de Alta Especialidad del Bajío, a la altura del Puente del
+                Milenio.
+              </p>
+              <img src="/src/assets/img/CampusCentral.jpg" alt="" />
+            </div>
             <div>
               <div className="ubicacion">
-                  <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14892.76321961692!2d-101.58166455!3d21.065040149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1651591395502!5m2!1ses-419!2smx"
-                    width="700"
-                    height="400"
-                    allowfullscreen="allowfullscreen"
-                    loading="lazy"
-                    referrerpolicy="no-referrer-when-downgrade"
-                  ></iframe>
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14892.76321961692!2d-101.58166455!3d21.065040149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1651591395502!5m2!1ses-419!2smx"
+                  width="700"
+                  height="400"
+                  allowfullscreen="allowfullscreen"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
               </div>
             </div>
           </div>
-<hr />
+          <hr />
           <h4>Campus II</h4>
           <div className="segundoMapa">
-          
-          <div className="ubicacion">
+            <div className="ubicacion">
               <iframe
                 src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4427.500424414372!2d-101.57605742203658!3d21.069896779806143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b962c40501be9%3A0x6f8a0c54cf13cf56!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n%20Campus%20II!5e0!3m2!1ses-419!2smx!4v1652122525705!5m2!1ses-419!2smx"
                 width="700"
@@ -423,8 +421,8 @@ const Aspirante = () => {
                 loading="lazy"
                 referrerpolicy="no-referrer-when-downgrade"
               ></iframe>
-          </div>
-          <div className="div-ubicacion">
+            </div>
+            <div className="div-ubicacion">
               <p>
                 La Universidad Tecnológica de León campus II se ubica al sureste
                 de la ciudad de León, Guanajuato, ingresando por el
@@ -432,12 +430,13 @@ const Aspirante = () => {
               </p>
               <img src="/src/assets/img/CampusII.jpg" alt="" />
             </div>
-        </div>{" "}
-        <br /> <br />
+          </div>{" "}
+          <br /> <br />
+        </div>
+        <br />
+        <br />
+        <br />
       </div>
-      <br /><br /><br />
-      </div>
-
     ),
     OfertaEducativa: (
       <div>

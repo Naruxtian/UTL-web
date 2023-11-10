@@ -329,7 +329,7 @@ h1 a{
 
   .logoPrincipal{
   
-    width: 25%;
+    width: 35%;
   margin-right: auto;
   margin-left: auto;
   padding-right: none;
@@ -604,6 +604,7 @@ h1 a{
 
 .Aspirante{
   background-color: rgb(255, 255, 255, 0.7);
+  width: 90%;
   border-radius: 20px;
 }
 
