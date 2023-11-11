@@ -7,6 +7,32 @@ import imgModeloEducativo2 from "/src/assets/img/ModeloEducativo2.jpg"
 import imgBecas from "/src/assets/img/becas.jpg"
 import imgCampusCentral from "/src/assets/img/CampusCentral.jpg"
 import imgCampusII from "/src/assets/img/CampusII.jpg"
+import imgEntornos from "/src/assets/img/carrerasTSU/EntornosVirtualesYNegociosDigitales.jpg"
+import imgDSM from "/src/assets/img/carrerasTSU/DesarrolloDeSoftwareMultiplataforma.jpg"
+import imgRedes from "/src/assets/img/carrerasTSU/RedesYTelecomunicaciones.jpg"
+import imgAdministracion from "/src/assets/img/carrerasTSU/administracion.jpg"
+import imgMercadotecnia from "/src/assets/img/carrerasTSU/DesarrolloDeNegociosAreaMercadotecnia.jpg"
+import imgTurismo from "/src/assets/img/carrerasTSU/Turismo.jpg"
+import imgGatro from "/src/assets/img/carrerasTSU/Gastronomía.jpg"
+import imgTransporte from "/src/assets/img/carrerasTSU/TransporteTerrestre.jpg"
+import imgQuimica from "/src/assets/img/carrerasTSU/Química.jpg"
+import imgManufactura from "/src/assets/img/carrerasTSU/Manufactura.jpg"
+import imgMecatronica from "/src/assets/img/carrerasTSU/Mecatrónica.jpg"
+import imgAutomotriz from "/src/assets/img/carrerasTSU/Automotriz.jpg"
+import imgPlasticos from "/src/assets/img/carrerasTSU/Plásticos.jpg"
+import imgCalzado from "/src/assets/img/carrerasTSU/GestiónYProductividadDeCalzado.jpg"
+import imgMantIndustrial from "/src/assets/img/carrerasTSU/MantenimientoIndustrial.jpg"
+import imgGestionSoft from "/src/assets/img/carrerasING/GestiónDeSoftware.jpg"
+import imgCiberSec from "/src/assets/img/carrerasING/RedesInteligentesYCiberseguridad.jpg"
+import imgCapHumano from "/src/assets/img/carrerasING/CapitalHumano.jpg"
+import imgInovacion from "/src/assets/img/carrerasING/InnovaciónDeNegociosYMercadotecnia.jpg"
+import imgDesTurism from "/src/assets/img/carrerasING/DesarrolloTurístico.jpg"
+import imgIngGastro from "/src/assets/img/carrerasING/Gastronomía.jpg"
+import imgRedesLogicas from "/src/assets/img/carrerasING/RedesLogísticas.jpg"
+import imgTecAmbiental from "/src/assets/img/carrerasING/TecnologíaAmbiental.jpg"
+import imgIngMeca from "/src/assets/img/carrerasING/Mecatrónica.jpg"
+import imgMantenimiento from "/src/assets/img/carrerasING/MantenimientoIndustrial.jpg"
+import imgSisProducts from "/src/assets/img/carrerasING/SistemasProductivos.jpg"
 
 const Aspirante = () => {
   const [activeValue, setActiveValue] = useState(null);
@@ -95,7 +121,7 @@ const Aspirante = () => {
       <div className="card2 custom-card">
         <img src={imageSrc} className="card-img-top" alt="Imagen" />
         <div className="card-body">
-          <a href="Carrera.jsx" className="btn btn-primary">
+          <a  className="btn btn-primary">
             Leer más
           </a>
           <h5 className="card-title">{title}</h5>
@@ -107,126 +133,120 @@ const Aspirante = () => {
   const cardsData = [
     {
       title: "TSU EN TI ÁREA ENTORNOS VIRTUALES Y NEGOCIOS DIGITALES",
-      imageSrc:
-        "/src/assets/img/carrerasTSU/EntornosVirtualesYNegociosDigitales.jpg",
+      imageSrc: imgEntornos
     },
     {
       title: "TSU EN TI ÁREA DESARROLLO DE SOFTWARE MULTIPLATAFORMA",
-      imageSrc:
-        "/src/assets/img/carrerasTSU/DesarrolloDeSoftwareMultiplataforma.jpg",
+      imageSrc: imgDSM
     },
     {
       title: "TSU EN TI ÁREA INFRAESTRUCTURA DE REDES DIGITALES",
-      imageSrc: "/src/assets/img/carrerasTSU/RedesYTelecomunicaciones.jpg",
+      imageSrc: imgRedes
     },
     {
       title: "TSU EN ADMINISTRACIÓN ÁREA CAPITAL HUMANO",
-      imageSrc: "/src/assets/img/carrerasTSU/administracion.jpg",
+      imageSrc: imgAdministracion
     },
     {
       title: "TSU EN DESARROLLO DE NEGOCIOS ÁREA MERCADOTECNIA",
-      imageSrc:
-        "/src/assets/img/carrerasTSU/DesarrolloDeNegociosAreaMercadotecnia.jpg",
+      imageSrc: imgMercadotecnia
+      
     },
     {
       title: "TSU EN TURISMO ÁREA HOTELERÍA",
-      imageSrc: "/src/assets/img/carrerasTSU/Turismo.jpg",
+      imageSrc: imgTurismo,
     },
     {
       title: "TSU EN GASTRONOMÍA",
-      imageSrc: "/src/assets/img/carrerasTSU/Gastronomía.jpg",
+      imageSrc: imgGatro,
     },
     {
       title: "LOGÍSTICA ÁREA TRANSPORTE TERRESTRE",
-      imageSrc: "/src/assets/img/carrerasTSU/TransporteTerrestre.jpg",
+      imageSrc: imgTransporte
     },
     {
       title: "TSU EN QUÍMICA ÁREA TECNOLOGÍA AMBIENTAL",
-      imageSrc: "/src/assets/img/carrerasTSU/Química.jpg",
+      imageSrc: imgQuimica,
     },
     {
       title: "TSU EN MECATRÓNICA ÁREA SISTEMAS DE MANUFACTURA FLEXIBLE",
-      imageSrc: "/src/assets/img/carrerasTSU/Manufactura.jpg",
+      imageSrc: imgManufactura,
     },
     {
       title: "TSU EN MECATRÓNICA ÁREA OPTOMECATRÓNICA",
-      imageSrc: "/src/assets/img/carrerasTSU/Mecatrónica.jpg",
+      imageSrc: imgMecatronica,
     },
     {
       title: "TSU EN PROCESOS INDUSTRIALES ÁREA AUTOMOTRIZ",
-      imageSrc: "/src/assets/img/carrerasTSU/Automotriz.jpg",
+      imageSrc: imgAutomotriz,
     },
     {
       title: "TSU EN PROCESOS INDUSTRIALES ÁREA MANUFACTURA",
-      imageSrc: "/src/assets/img/carrerasTSU/Manufactura.jpg",
+      imageSrc: imgManufactura,
     },
     {
       title: "TSU EN PROCESOS INDUSTRIALES ÁREA PLÁSTICOS",
-      imageSrc: "/src/assets/img/carrerasTSU/Plásticos.jpg",
+      imageSrc: imgPlasticos,
     },
     {
       title:
         "TSU EN PROCESOS INDUSTRIALES ÁREA GESTIÓN Y PRODUCTIVIDAD DE CALZADO",
-      imageSrc:
-        "/src/assets/img/carrerasTSU/GestiónYProductividadDeCalzado.jpg",
+      imageSrc: imgCalzado
     },
     {
       title: "TSU EN MANTENIMIENTO ÁREA INDUSTRIAL",
-      imageSrc: "/src/assets/img/carrerasTSU/MantenimientoIndustrial.jpg",
+      imageSrc: imgMantIndustrial,
     },
   ];
 
   const cardDataIng = [
     {
       title: "INGENIERÍA EN ENTORNOS VIRTUALES Y NEGOCIOS DIGITALES",
-      imageSrc:
-        "/src/assets/img/carrerasING/EntornosVirtualesYNegociosDigitales.jpg",
+      imageSrc: imgEntornos,
     },
     {
       title: "INGENIERÍA EN DESARROLLO Y GESTIÓN DE SOFTWARE",
-      imageSrc: "/src/assets/img/carrerasING/GestiónDeSoftware.jpg",
+      imageSrc: imgGestionSoft,
     },
     {
       title: "INGENIERÍA EN REDES INTELIGENTES Y CIBERSEGURIDAD",
-      imageSrc:
-        "/src/assets/img/carrerasING/RedesInteligentesYCiberseguridad.jpg",
+      imageSrc: imgCiberSec,
     },
     {
       title: "LICENCIATURA EN GESTIÓN DEL CAPITAL HUMANO",
-      imageSrc: "/src/assets/img/carrerasING/CapitalHumano.jpg",
+      imageSrc: imgCapHumano,
     },
     {
       title: "LICENCIATURA EN INNOVACIÓN DE NEGOCIOS Y MERCADOTECNIA",
-      imageSrc:
-        "/src/assets/img/carrerasING/InnovaciónDeNegociosYMercadotecnia.jpg",
+      imageSrc: imgInovacion,
     },
     {
       title: "LICENCIATURA EN GESTIÓN Y DESARROLLO TURÍSTICO",
-      imageSrc: "/src/assets/img/carrerasING/DesarrolloTurístico.jpg",
+      imageSrc: imgDesTurism,
     },
     {
       title: "LICENCIATURA EN GASTRONOMÍA",
-      imageSrc: "/src/assets/img/carrerasING/Gastronomía.jpg",
+      imageSrc: imgIngGastro,
     },
     {
       title: "LICENCIATURA EN DISEÑO Y GESTIÓN DE REDES LOGÍSTICAS",
-      imageSrc: "/src/assets/img/carrerasING/RedesLogísticas.jpg",
+      imageSrc: imgRedesLogicas,
     },
     {
       title: "INGENIERÍA EN TECNOLOGÍA AMBIENTAL",
-      imageSrc: "/src/assets/img/carrerasING/TecnologíaAmbiental.jpg",
+      imageSrc: imgTecAmbiental,
     },
     {
       title: "INGENIERÍA EN MECATRÓNICA",
-      imageSrc: "/src/assets/img/carrerasING/Mecatrónica.jpg",
+      imageSrc: imgIngMeca,
     },
     {
       title: "INGENIERÍA EN MANTENIMIENTO INDUSTRIAL",
-      imageSrc: "/src/assets/img/carrerasING/MantenimientoIndustrial.jpg",
+      imageSrc: imgMantenimiento,
     },
     {
       title: "INGENIERÍA EN SISTEMAS PRODUCTIVOS",
-      imageSrc: "/src/assets/img/carrerasING/SistemasProductivos.jpg",
+      imageSrc: imgSisProducts,
     },
   ];
 

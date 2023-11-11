@@ -218,7 +218,7 @@ const Navbar = ({ modulo }) => {
                 </div>
                 <div className="modal-body">
                   <div>
-                    <img src="/src/assets/img/RectoraAspirante.jpeg" alt="" />
+                    <img src={imgRectora} alt="" />
                     <p>
                       Es un gusto muy especial dirigirme a ti, apreciable
                       aspirante. En la Universidad Tecnológica de León, te
@@ -243,7 +243,7 @@ const Navbar = ({ modulo }) => {
           </div>
         )}
         <div className="imagenNav">
-          <img src="/src/assets/img/utlLogo2.png" alt="Logo" className="logo" />
+          <img src={imgUTLogo} alt="Logo" className="logo" />
         </div>
       </nav>
     </div>

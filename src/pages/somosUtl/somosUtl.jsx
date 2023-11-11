@@ -10,6 +10,7 @@ import imgCertificacion from "/src/assets/img/Certificacion.jpeg"
 import imgSistemaGI from "/src/assets/img/SistemaGI.png"
 import imgDifusion from "/src/assets/img/Difusion.png"
 import imgContraloria from "/src/assets/img/Contraloria.png"
+import imgRectora from "/src/assets/img/RectoraAspirante.jpeg"
 
 const SomosUtl = () => {
   const [activeValue, setActiveValue] = useState(null);
@@ -537,7 +538,7 @@ const SomosUtl = () => {
                           <p> Encargada del Despacho de Rectoría </p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/RectoraAspirante.jpeg" alt="" />
+                            <img src={imgRectora} alt="" />
                         </div>
                     </div>
           </div> <br /> <br />
