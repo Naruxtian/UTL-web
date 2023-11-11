@@ -91,7 +91,7 @@ const Aspirante = () => {
   ];
 
   const Card = ({ title, imageSrc }) => (
-    <div className="">
+    <div className="cardOfertas">
       <div className="card2 custom-card">
         <img src={imageSrc} className="card-img-top" alt="Imagen" />
         <div className="card-body">
@@ -376,8 +376,8 @@ const Aspirante = () => {
               <iframe
                 title="Sitio Becas_EA5"
                 frameborder="0"
-                width="800px"
-                height="1600px"
+                width="100%"
+                height="1200px"
                 src="https://view.genial.ly/63ed23b4958690001992bfc8"
                 type="text/html"
                 allowscriptaccess="always"
@@ -407,8 +407,8 @@ const Aspirante = () => {
               <div className="ubicacion">
                 <iframe
                   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14892.76321961692!2d-101.58166455!3d21.065040149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1651591395502!5m2!1ses-419!2smx"
-                  width="700"
-                  height="400"
+                  width="100%"
+                  height="100%"
                   allowfullscreen="allowfullscreen"
                   loading="lazy"
                   referrerpolicy="no-referrer-when-downgrade"
@@ -418,17 +418,7 @@ const Aspirante = () => {
           </div>
           <hr />
           <h4>Campus II</h4>
-          <div className="segundoMapa">
-            <div className="ubicacion">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4427.500424414372!2d-101.57605742203658!3d21.069896779806143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b962c40501be9%3A0x6f8a0c54cf13cf56!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n%20Campus%20II!5e0!3m2!1ses-419!2smx!4v1652122525705!5m2!1ses-419!2smx"
-                width="700"
-                height="400"
-                allowfullscreen="allowfullscreen"
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade"
-              ></iframe>
-            </div>
+          <div className="primerMapa">
             <div className="div-ubicacion">
               <p>
                 La Universidad Tecnológica de León campus II se ubica al sureste
@@ -437,7 +427,19 @@ const Aspirante = () => {
               </p>
               <img src={imgCampusII} alt="" />
             </div>
-          </div>{" "}
+            <div>
+              <div className="ubicacion">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4427.500424414372!2d-101.57605742203658!3d21.069896779806143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b962c40501be9%3A0x6f8a0c54cf13cf56!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n%20Campus%20II!5e0!3m2!1ses-419!2smx!4v1652122525705!5m2!1ses-419!2smx"
+                  width="100%"
+                  height="100%"
+                  allowfullscreen="allowfullscreen"
+                  loading="lazy"
+                  referrerpolicy="no-referrer-when-downgrade"
+                ></iframe>
+              </div>
+            </div>
+          </div>
           <br /> <br />
         </div>
         <br />
@@ -453,8 +455,8 @@ const Aspirante = () => {
           <h1>Oferta Educativa</h1>
           <h3>Carreras de TSU</h3>
         </div>
-        <div className="">
-          <div className="row">
+        <div className="arregloOfertas">
+          <div className="ofertas">
             {cardsData.map((card, index) => (
               <Card key={index} title={card.title} imageSrc={card.imageSrc} />
             ))}
@@ -464,8 +466,8 @@ const Aspirante = () => {
         <div className="Aspirante">
           <h3>Carreras de ING/LIC</h3>
         </div>
-        <div className="">
-          <div className="row">
+        <div className="arregloOfertas">
+          <div className="ofertas">
             {cardDataIng.map((card, index) => (
               <Card key={index} title={card.title} imageSrc={card.imageSrc} />
             ))}
@@ -485,7 +487,7 @@ const Aspirante = () => {
               <iframe
                 title="Proceso de admisión TSU 2023"
                 frameborder="0"
-                width="1000px"
+                width="100%"
                 height="675px"
                 src="https://view.genial.ly/61ddab3ca31fbb0d87451c9b"
                 type="text/html"
@@ -505,7 +507,7 @@ const Aspirante = () => {
               <iframe
                 title="DIAGRAMA NÚMEROS"
                 frameborder="0"
-                width="1000px"
+                width="100%"
                 height="675px"
                 src="https://view.genial.ly/6470f08a4ee68f0019b5b74f"
                 type="text/html"

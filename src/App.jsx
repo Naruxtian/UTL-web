@@ -23,19 +23,19 @@ function App() {
 
   return (
     <>
-    <SideMenu showNav={showNav} setShowNav={setShowNav} />
+      <SideMenu showNav={showNav} setShowNav={setShowNav} />
       <Background />
-      <div className='DisplayContainer'>
-        <Routes>          
-              <Route index element={<Inicio/>} />
-              <Route path="/" element={<Inicio/>}/>
-              <Route path="/Aspirante" element={<Aspirante/>}/>
-              <Route path="/Estudiante" element={<Estudiante/>}/>
-              <Route path="/Docente" element={<Docente/>}/>
-              <Route path="/Administrativo" element={<Administrativo/>}/>
-              <Route path="/Empresario" element={<Empresario/>}/>
-              <Route path="/Egresado" element={<Egresado/>}/>
-              <Route path="/SomosUtl" element={<SomosUtl/>}/>
+      <div className="DisplayContainer">
+        <Routes>
+          <Route index element={<Inicio />} />
+          <Route path="/" element={<Inicio />} />
+          <Route path="/Aspirante" element={<Aspirante />} />
+          <Route path="/Estudiante" element={<Estudiante />} />
+          <Route path="/Docente" element={<Docente />} />
+          <Route path="/Administrativo" element={<Administrativo />} />
+          <Route path="/Empresario" element={<Empresario />} />
+          <Route path="/Egresado" element={<Egresado />} />
+          <Route path="/SomosUtl" element={<SomosUtl />} />
           <Route path="/Contactanos" element={<Contactanos />} />
         </Routes>
       </div>
