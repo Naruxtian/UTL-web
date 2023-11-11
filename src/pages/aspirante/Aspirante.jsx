@@ -84,7 +84,7 @@ const Aspirante = () => {
   ];
 
   const Card = ({ title, imageSrc }) => (
-    <div className="">
+    <div className="col-4">
       <div className="card2 custom-card">
         <img src={imageSrc} className="card-img-top" alt="Imagen" />
         <div className="card-body">

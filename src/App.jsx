@@ -23,6 +23,7 @@ function App() {
 
   return (
     <>
+      <SideMenu show={showNav} />
       <Background />
       <div className="container">
         <Routes>
