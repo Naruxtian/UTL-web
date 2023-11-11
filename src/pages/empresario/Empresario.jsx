@@ -1,6 +1,18 @@
 import React, {useState} from 'react'
 import Navbar from '../../components/navbar'
-
+import imgInnxware from "/src/assets/img/innxware.png"
+import imgFundadores from "/src/assets/img/Fundadores.jpg"
+import imgConstruccion from "/src/assets/img/Construccion.jpg"
+import imgFilosofia from "/src/assets/img/filosofia.jpg"
+import imgCampusCentral from "/src/assets/img/CampusCentral.jpg"
+import imgCampus2 from "/src/assets/img/CampusII.jpg"
+import imgCapitalHumano from "/src/assets/img/carrerasING/CapitalHumano.jpg"
+import imgBolsa from "/src/assets/img/BolsaT.jpg"
+import imgDual from "/src/assets/img/Dual.jpg"
+import imgJunta2 from "/src/assets/img/Junta2.jpg"
+import imgAdminstracion from "/src/assets/img/carrerasTSU/administracion.jpg"
+import imgAsesoria from "/src/assets/img/Asesoria.jpg"
+import imgServiciosT from "/src/assets/img/ServiciosT.jpeg"
 
 const Empresario = () => {
 
@@ -143,10 +155,10 @@ const Empresario = () => {
             <div> <br /> <br />
                 <div className='Aspirante'>
                     <h1>Historia</h1>
-                    <img src="/src/assets/img/Fundadores.jpg" alt="Imagen" className="image" />
+                    <img src={imgFundadores} alt="Imagen" className="image" />
                     <div className="div-historia">
                     <div className='div-historia-izq col-5'>
-                        <img src="/src/assets/img/Construccion.jpg" alt="Imagen" className="image" />
+                        <img src={imgConstruccion} alt="Imagen" className="image" />
                     </div>
                     <div className='div-historia-der col-7'>
                         <p>La UTL fue creada gracias a la visión de diversos actores y actrices que proyectaron para nuestra localidad escenarios de desarrollo y progreso tecnológico.</p>
@@ -158,7 +170,7 @@ const Empresario = () => {
                     <h1>Filosofía</h1>
                         <div className='div-filosofia'>
                         <div className='div-filosofia-izq col-6'>
-                            <img src="/src/assets/img/filosofia.jpg" alt="" />
+                            <img src={imgFilosofia} alt="" />
                         </div>
                         <div className='div-filosofiamvv col-6'>
                             <h4>Misión</h4>
@@ -242,7 +254,7 @@ const Empresario = () => {
                       <p>La Universidad Tecnológica de León se ubica al sureste de la ciudad de León, Guanajuato, a un costado del Hospital Regional de Alta Especialidad del Bajío, a la altura del Puente del Milenio.</p>          
                     </div>
                     <div className='div-ubicacion-der col-5'>
-                      <img src="/src/assets/img/CampusCentral.jpg" alt="" />
+                      <img src={imgCampusCentral} alt="" />
                     </div>
                   </div>
                   <div className="col ubicacion"><div className="row justify-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14892.76321961692!2d-101.58166455!3d21.065040149999998!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b963652f40f0d%3A0xa7d88da0ad8eff8a!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n!5e0!3m2!1ses-419!2smx!4v1651591395502!5m2!1ses-419!2smx" width="900" height="400" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
@@ -252,7 +264,7 @@ const Empresario = () => {
                       <p>La Universidad Tecnológica de León campus II se ubica al sureste de la ciudad de León, Guanajuato, ingresando por el fraccionamiento Jardines de Versalles.</p>          
                     </div>
                     <div className='div-ubicacion-der col-5'>
-                      <img src="/src/assets/img/CampusII.jpg" alt="" />
+                      <img src={imgCampus2} alt="" />
                     </div>
                   </div>
                   <div className="col ubicacion"><div className="row justify-center"><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4427.500424414372!2d-101.57605742203658!3d21.069896779806143!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842b962c40501be9%3A0x6f8a0c54cf13cf56!2sUniversidad%20Tecnol%C3%B3gica%20de%20Le%C3%B3n%20Campus%20II!5e0!3m2!1ses-419!2smx!4v1652122525705!5m2!1ses-419!2smx" width="900" height="400" allowfullscreen="allowfullscreen" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div></div>
@@ -300,7 +312,7 @@ const Empresario = () => {
                               </ul>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                              <img src="/src/assets/img/carrerasING/CapitalHumano.jpg" alt="" />
+                              <img src={imgCapitalHumano} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -311,7 +323,7 @@ const Empresario = () => {
                               <p>La bolsa de trabajo de egresados/as de la UTL es un espacio para que las empresas, instituciones y organizaciones puedan ofertar sus vacantes y la comunidad de egresados y egresadas de UTL tengan acceso.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                              <img src="/src/assets/img/BolsaT.jpg" alt="" />
+                              <img src={imgBolsa} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -337,7 +349,7 @@ const Empresario = () => {
                               <p>Contamos con sólidos programas de formación dual donde el alumno comparte su proceso de enseñanza aprendizaje entre las aulas y la empresa, logrando así un mayor conocimiento teórico práctico y una mayor inserción laboral formando el talento humano desde el principio de su carrera.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Dual.jpg" alt="" />
+                            <img src={imgDual} alt="" />
                           </div>
                     </div>
             </div><br /> <br />
@@ -352,7 +364,7 @@ const Empresario = () => {
                               <p>Contamos con sólidos programas de formación dual donde el alumno comparte su proceso de enseñanza aprendizaje entre las aulas y la empresa, logrando así un mayor conocimiento teórico práctico y una mayor inserción laboral formando el talento humano desde el principio de su carrera.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Dual.jpg" alt="" />
+                            <img src={imgDual} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -363,7 +375,7 @@ const Empresario = () => {
                               <p>Impulsamos la vinculación académica con los sectores productivo y social en la aportación de soluciones tecnológicas y de capacitación a necesidades específicas, a través de estrategias innovadoras, que contribuyan al desarrollo sustentable de la región.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Junta2.jpg" alt="" />
+                            <img src={imgJunta2} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -375,7 +387,7 @@ const Empresario = () => {
                               <p>Ofrecer servicios de capacitación en diferentes modalidades como cursos, talleres y diplomados, desarrollados en colaboración con docentes de las diferentes direcciones académicas, dirigidos tanto a egresados(as) y demás integrantes de la Universidad, así como al público en general, con el propósito de apoyarles en su actualización profesional.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasTSU/administracion.jpg" alt="" />
+                            <img src={imgAdminstracion} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -386,7 +398,7 @@ const Empresario = () => {
                               <p>Impulsamos la vinculación académica con los sectores productivo y social en la aportación de soluciones tecnológicas y de capacitación a necesidades específicas, a través de estrategias innovadoras, que contribuyan al desarrollo sustentable de la región.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Asesoria.jpg" alt="" />
+                            <img src={imgAsesoria} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -397,7 +409,7 @@ const Empresario = () => {
                               <p>Impulsamos la vinculación académica con los sectores productivo y social en la aportación de soluciones tecnológicas y de capacitación a necesidades específicas, a través de estrategias innovadoras, que contribuyan al desarrollo sustentable de la región.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ServiciosT.jpeg" alt="" />
+                            <img src={imgServiciosT} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -409,7 +421,7 @@ const Empresario = () => {
                               <p>Centro innovador en tecnologías de la información certificado en 2018 en CMMI nivel IV, integrado por directivos/as, personal docente y personas egresadas de la misma Universidad.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/innxware.png" alt="" />
+                            <img src={imgInnxware} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />

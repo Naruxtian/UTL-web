@@ -1,5 +1,20 @@
 import React, {useState} from 'react'
 import Navbar from '../../components/navbar'
+import imgUniversidad from "/src/assets/img/universidad.png"
+import imgTurismo from "/src/assets/img/carrerasTSU/Turismo.jpg"
+import imgComercioTuristico from "/src/assets/img/carrerasING/DesarrolloTurístico.jpg"
+import imgProgramaInstitucional from "/src/assets/img/ProgramaInstitucional.jpg"
+import imgMercadotecnia from "/src/assets/img/carrerasTSU/DesarrolloDeNegociosAreaMercadotecnia.jpg"
+import imgConstancia from "/src/assets/img/constancia.jpg"
+import imgGobierno from "/src/assets/img/Gobierno.jpeg"
+import imgJunta from "/src/assets/img/Junta.jpeg"
+import imgComputadora from "/src/assets/img/computadora.jpg"
+import imgReingreso from "/src/assets/img/Reingreso.jpg"
+import imgSalud from "/src/assets/img/Salud.jpg"
+import imgJunta2 from "/src/assets/img/Junta2.jpg"
+import imgComite from "/src/assets/img/Comite.jpg"
+import imgModeloEducativo2 from "/src/assets/img/ModeloEducativo2.jpg"
+import imgSeguridad from "/src/assets/img/Seguridad.jpg"
 
 const Docente = () => {
 
@@ -30,7 +45,7 @@ const Docente = () => {
                             <p>Antes de producir cualquier material que incluya el logotipo institucional, deberá solicitar su validación con el Departamento de Imagen a la ext. 213 o al correo <b>argomez@utleon.edu.mx</b>.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/universidad.png" alt="" />
+                            <img src={imgUniversidad} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -53,7 +68,7 @@ const Docente = () => {
                             <p>El curso tiene una duración de 20 horas, se imparte de forma presencial de acuerdo a programa de capacitación.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasTSU/Turismo.jpg" alt="" />
+                            <img src={imgTurismo} alt="" />
                         </div>
                     </div>
                     <div className='div-modeloEducativo'>
@@ -62,7 +77,7 @@ const Docente = () => {
                             <p>Actualmente el proceso formativo se realiza a través del “Diplomado en Innovación Educativa”, con 192 horas de capacitación, que se imparten cada cuatrimestre, de acuerdo al programa.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasING/DesarrolloTurístico.jpg" alt="" />
+                            <img src={imgComercioTuristico} alt="" />
                         </div>
                     </div> <br />
                     <div className='div-modeloEducativo'>
@@ -75,7 +90,7 @@ const Docente = () => {
                             </ul>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+                            <img src={imgProgramaInstitucional} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -89,7 +104,7 @@ const Docente = () => {
                             <p><b>Canalización:</b> Se solicita a través de la gestoría académica.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasTSU/DesarrolloDeNegociosAreaMercadotecnia.jpg" alt="" />
+                            <img src={imgMercadotecnia} alt="" />
                         </div>
                     </div>
                 </div>  <br /> <br />
@@ -101,7 +116,7 @@ const Docente = () => {
                             <p>Los principales alcances de la acción tutorial son: Detección, orientación, canalización y seguimiento</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+                            <img src={imgProgramaInstitucional} alt="" />
                         </div>
                     </div>
                 </div>  <br /> <br />
@@ -113,7 +128,7 @@ const Docente = () => {
                             <p>Brindar asesoría para producir recursos y servicios educativos digitales, a través de estrategias tecnológicas, que contribuyen al aprendizaje y mejora continua para la práctica docente en las diferentes modalidades que se imparten en la comunidad educativa.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/constancia.jpg" alt="" />
+                            <img src={imgConstancia} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -126,7 +141,7 @@ const Docente = () => {
                             <p>Es el documento a través del cual se tramita la certificación y/o autorización que los servidores públicos facultados en las dependencias y entidades de la Administración Pública Federal conceden a los trabajadores o profesionales, para desempeñar dos o más empleos, cuyos sueldos u honorarios se cubran con cargo al presupuesto de egresos de la Federación.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Gobierno.jpeg" alt="" />
+                            <img src={imgGobierno} alt="" />
                         </div>
                     </div>
                     <div className='div-modeloEducativo'>
@@ -134,7 +149,7 @@ const Docente = () => {
                             <h3>Resultados de Medición </h3>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Junta.jpeg" alt="" />
+                            <img src={imgJunta} alt="" />
                         </div>
                     </div>
                 </div>  <br /> <br />
@@ -151,7 +166,7 @@ const Docente = () => {
                             <p>Se refiere al profesor universitario que posee un nivel de habilitación académica superior al de los programas educativos que imparte, preferentemente cuenta con el doctorado y, además, realiza de forma equilibrada actividades de docencia, generación o aplicación innovadora de conocimientos, tutorías y gestión académica o vinculación</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/computadora.jpg" alt="" />
+                            <img src={imgComputadora} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -163,7 +178,7 @@ const Docente = () => {
                             <p>La UTL forma parte de las más de 250 universidades de alcance nacional e internacional que integran este proyecto.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Reingreso.jpg" alt="" />
+                            <img src={imgReingreso} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -181,7 +196,7 @@ const Docente = () => {
                             <p>En el área de Salud integral se te brinda los servicios médicos de urgencias y canalizaciones.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Salud.jpg" alt="" />
+                            <img src={imgSalud} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -196,7 +211,7 @@ const Docente = () => {
                                 <p>El objetivo del Comité de Ética y Prevención del conflicto de Interés, tendrá por objeto promover y difundir la observancia de valores éticos y la prevención del conflicto de interés, en las actividades que realiza la comunidad universitaria.</p>
                             </div>
                             <div className='div-modeloEducativo-der col-5'>
-                                <img src="/src/assets/img/Junta2.jpg" alt="" />
+                                <img src={imgJunta2} alt="" />
                             </div>
                         </div>
                 </div> <br /> <br />
@@ -204,7 +219,7 @@ const Docente = () => {
                     <h1>Comité de Igualdad Laboral y No Discriminación</h1>
                         <div className='div-modeloEducativo'>
                             <div className='div-modeloEducativo-der col'>
-                                <img src="/src/assets/img/Comite.jpg" alt="" />
+                                <img src={imgComite} alt="" />
                             </div>
                         </div>
                 </div> <br /> <br />
@@ -218,7 +233,7 @@ const Docente = () => {
                             <p>El Comité está representado por la Comunidad UTL, participando Alta Dirección, estudiantes Agentes de Paz, Docentes y personal administrativo. Preside la Dra. Yoloxóchitl Bustamante Diez. Enc. de la Rectoría UTL Secretaria Técnica Olga Rebeca Ledesma García. Directora de Desarrollo Académico y Docente También se cuenta con un Comité en la Unidad Académica Sureste.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/constancia.jpg" alt="" />
+                            <img src={imgConstancia} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -229,7 +244,7 @@ const Docente = () => {
                             <p>El objetivo de la comisión es el siguiente: "Ser un ente estratégico y ejecutivo que defina las lineas de seguridad sanitaria así como las acciones tácticas y operativas para la prevención del COVID-19 en la Universidad Tecnológica de León".</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ModeloEducativo2.jpg" alt="" />
+                            <img src={imgModeloEducativo2} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -242,7 +257,7 @@ const Docente = () => {
                             <p>Pero no es sino hasta la creación del Espacio Común de Educación Superior Tecnológica (ECEST) en el 2009, que se comienzan a realizar una serie de trabajos orientados a impulsar el mejoramiento general de los servicios educativos que brindan las instituciones de educación superior (IES) de los subsistemas de Institutos Tecnológicos, Universidades Politécnicas y Universidades Tecnológicas. En particular y, dentro de este marco, en 2010 se conformó la Comisión de Cultura, Prevención y Seguridad con objeto de atender la demanda de espacios educativos seguros y en los que se viva una cultura de prevención y seguridad. No obstante esto no sólo se consolida en el ECEST, sino también en gran medida en lo que la certificación en ISO 14001:2004 nos marca como un requisito indispensable no nada más para salvaguardar la vida de los miembros de la comunidad universitaria, sino también para saber qué hacer en caso de una emergencia ambiental.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Seguridad.jpg" alt="" />
+                            <img src={imgSeguridad} alt="" />
                         </div>
                     </div>
                     <h3><a href="https://www.utleon.edu.mx/public_html/seguridad-institucional/protocolo-de-emergencia/img_protocolo_de_emergencia.jpg" target='_blank'>Protocolo de Emergencia</a></h3>

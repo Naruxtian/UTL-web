@@ -1,5 +1,12 @@
 import React, { useState } from "react";
 import Navbar from "../../components/navbar";
+import imgUniversidad from "/src/assets/img/universidad.png"
+import imgFilosofia from "/src/assets/img/filosofia.jpg"
+import imgModeloEducativo from "/src/assets/img/ModeloEducativo.jpg"
+import imgModeloEducativo2 from "/src/assets/img/ModeloEducativo2.jpg"
+import imgBecas from "/src/assets/img/becas.jpg"
+import imgCampusCentral from "/src/assets/img/CampusCentral.jpg"
+import imgCampusII from "/src/assets/img/CampusII.jpg"
 
 const Aspirante = () => {
   const [activeValue, setActiveValue] = useState(null);
@@ -234,7 +241,7 @@ const Aspirante = () => {
           <div className="div-historia">
             <div className="div-historia-izq col-5">
               <img
-                src="/src/assets/img/universidad.png"
+                src={imgUniversidad}
                 alt="Imagen"
                 className="image"
               />
@@ -261,7 +268,7 @@ const Aspirante = () => {
           <h1>Filosofía</h1>
           <div className="div-filosofia">
             <div className="div-filosofia-izq col-6">
-              <img src="/src/assets/img/filosofia.jpg" alt="" />
+              <img src={imgFilosofia} alt="" />
             </div>
             <div className="div-filosofiamvv col-6">
               <h4>Misión</h4>
@@ -310,7 +317,7 @@ const Aspirante = () => {
           <h1>Modelo Educativo</h1>
           <div className="div-modeloEducativo">
             <div className="div-modeloEducativo-izq col-5">
-              <img src="/src/assets/img/ModeloEducativo.jpg" alt="" />
+              <img src={imgModeloEducativo} alt="" />
             </div>
             <div className="div-modeloEducativo-der col-7">
               <p>
@@ -342,7 +349,7 @@ const Aspirante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/ModeloEducativo2.jpg" alt="" />
+              <img src={imgModeloEducativo2} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -361,7 +368,7 @@ const Aspirante = () => {
               </p>
             </div>
             <div className="div-becas-der col-5">
-              <img src="/src/assets/img/becas.jpg" alt="" />
+              <img src={imgBecas} alt="" />
             </div>
           </div>
           <div>
@@ -394,7 +401,7 @@ const Aspirante = () => {
                 de Alta Especialidad del Bajío, a la altura del Puente del
                 Milenio.
               </p>
-              <img src="/src/assets/img/CampusCentral.jpg" alt="" />
+              <img src={imgCampusCentral} alt="" />
             </div>
             <div>
               <div className="ubicacion">
@@ -428,7 +435,7 @@ const Aspirante = () => {
                 de la ciudad de León, Guanajuato, ingresando por el
                 fraccionamiento Jardines de Versalles.
               </p>
-              <img src="/src/assets/img/CampusII.jpg" alt="" />
+              <img src={imgCampusII} alt="" />
             </div>
           </div>{" "}
           <br /> <br />

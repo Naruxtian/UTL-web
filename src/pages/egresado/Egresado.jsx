@@ -1,5 +1,8 @@
 import React, {useState} from 'react'
 import Navbar from '../../components/navbar'
+import imgBolsaT from "/src/assets/img/BolsaT.jpg"
+import imgAdministracion from "/src/assets/img/carrerasTSU/administracion.jpg"
+import imgModeloEducativo2 from "/src/assets/img/ModeloEducativo2.jpg"
 
 const Egresado = () => {
 
@@ -19,7 +22,7 @@ const Egresado = () => {
                               <p>La bolsa de trabajo de egresados/as de la UTL es un espacio para que las empresas, instituciones y organizaciones puedan ofertar sus vacantes y la comunidad de egresados y egresadas de UTL tengan acceso.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                              <img src="/src/assets/img/BolsaT.jpg" alt="" />
+                              <img src={imgBolsaT} alt="" />
                           </div>
                     </div>
             </div> <br /> <br />
@@ -52,7 +55,7 @@ const Egresado = () => {
                               <p>Ofrecer servicios de capacitación en diferentes modalidades como cursos, talleres y diplomados, desarrollados en colaboración con docentes de las diferentes direcciones académicas, dirigidos tanto a egresados(as) y demás integrantes de la Universidad, así como al público en general, con el propósito de apoyarles en su actualización profesional.</p>
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasTSU/administracion.jpg" alt="" />
+                            <img src={imgAdministracion} alt="" />
                           </div>
                     </div>
                 </div>  <br /> <br />
@@ -67,7 +70,7 @@ const Egresado = () => {
                     <h1><a href="https://sito.utleon.edu.mx/jsp/solicitud_convocatoria/solicitudes_empleo.jsp" target='_blank'>Solicitud de empleo</a></h1> <br />
                           </div>
                           <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ModeloEducativo2.jpg" alt="" />
+                            <img src={imgModeloEducativo2} alt="" />
                           </div>
                     </div>
                 </div> <br /> <br />
