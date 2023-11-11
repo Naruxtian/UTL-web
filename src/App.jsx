@@ -23,9 +23,9 @@ function App() {
 
   return (
     <>
-      <SideMenu show={showNav} />
+      <SideMenu showNav={showNav} setShowNav={setShowNav} />
       <Background />
-      <div className="container">
+      <div className="DisplayContainer">
         <Routes>
           <Route index element={<Inicio />} />
           <Route path="/" element={<Inicio />} />
