@@ -29,8 +29,8 @@ const Background = () => {
           interactivity: {
             events: {
               onClick: {
-                enable: false,
-                mode: "push",
+                enable: true,
+                mode: "repulse",
               },
               onDiv: {
                 selectors: "#repulse-div",
