@@ -250,14 +250,14 @@ const Empresario = () => {
         <div className="Aspirante">
           <h1>Historia</h1>
           <img
-            src="/src/assets/img/Fundadores.jpg"
+            src={imgFundadores}
             alt="Imagen"
             className="image"
           />
           <div className="div-historia">
             <div className="div-historia-izq col-5">
               <img
-                src="/src/assets/img/Construccion.jpg"
+                src={imgConstruccion}
                 alt="Imagen"
                 className="image"
               />
@@ -283,7 +283,7 @@ const Empresario = () => {
           <h1>Filosofía</h1>
           <div className="div-filosofia">
             <div className="div-filosofia-izq col-6">
-              <img src="/src/assets/img/filosofia.jpg" alt="" />
+              <img src={imgFilosofia} alt="" />
             </div>
             <div className="div-filosofiamvv col-6">
               <h4>Misión</h4>
@@ -434,7 +434,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-ubicacion-der col-5">
-              <img src="/src/assets/img/CampusCentral.jpg" alt="" />
+              <img src={imgCampusCentral} alt="" />
             </div>
           </div>
           <div className="col ubicacion">
@@ -459,7 +459,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-ubicacion-der col-5">
-              <img src="/src/assets/img/CampusII.jpg" alt="" />
+              <img src={imgCampus2} alt="" />
             </div>
           </div>
           <div className="col ubicacion">
@@ -537,7 +537,7 @@ const Empresario = () => {
               </ul>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/carrerasING/CapitalHumano.jpg" alt="" />
+              <img src={imgCapitalHumano} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -554,7 +554,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/BolsaT.jpg" alt="" />
+              <img src={imgBolsa} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -603,7 +603,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Dual.jpg" alt="" />
+              <img src={imgDual} alt="" />
             </div>
           </div>
         </div>
@@ -627,7 +627,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Dual.jpg" alt="" />
+              <img src={imgDual} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -645,7 +645,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Junta2.jpg" alt="" />
+              <img src={imgJunta2} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -668,7 +668,7 @@ const Empresario = () => {
             </div>
             <div className="div-modeloEducativo-der col-5">
               <img
-                src="/src/assets/img/carrerasTSU/administracion.jpg"
+                src={imgAdminstracion}
                 alt=""
               />
             </div>
@@ -688,7 +688,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Asesoria.jpg" alt="" />
+              <img src={imgAsesoria} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -706,7 +706,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/ServiciosT.jpeg" alt="" />
+              <img src={imgServiciosT} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -729,7 +729,7 @@ const Empresario = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/innxware.png" alt="" />
+              <img src={imgInnxware} alt="" />
             </div>
           </div>
         </div>{" "}

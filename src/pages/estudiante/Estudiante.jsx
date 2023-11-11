@@ -86,7 +86,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/constancia.jpg" alt="" />
+              <img src={imgConstancia} alt="" />
             </div>
           </div>
           <div>
@@ -147,7 +147,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Credencial.jpeg" alt="" />
+              <img src={imgCrendencial} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -188,7 +188,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/becas.jpg" alt="" />
+              <img src={imgBecas} alt="" />
             </div>
           </div>
           <div>
@@ -359,7 +359,7 @@ const Estudiante = () => {
               </button>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Reingreso.jpg" alt="" />
+              <img src={imgReingreso} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -463,7 +463,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/CulturaYDeporte.jpg" alt="" />
+              <img src={imgDeporte} alt="" />
             </div>
           </div>
           <div>
@@ -494,21 +494,21 @@ const Estudiante = () => {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="/src/assets/img/carousel-1.jpeg"
+                    src={imgCarrusel}
                     class="d-block w-100"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="/src/assets/img/Reingreso.jpg"
+                    src={imgReingreso}
                     class="d-block w-100"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="/src/assets/img/becas.jpg"
+                    src={imgBecas}
                     class="d-block w-100"
                     alt="..."
                   />
@@ -566,21 +566,21 @@ const Estudiante = () => {
               <div class="carousel-inner">
                 <div class="carousel-item active">
                   <img
-                    src="/src/assets/img/carousel-1.jpeg"
+                    src={imgCarrusel}
                     class="d-block w-100"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="/src/assets/img/Reingreso.jpg"
+                    src={imgReingreso}
                     class="d-block w-100"
                     alt="..."
                   />
                 </div>
                 <div class="carousel-item">
                   <img
-                    src="/src/assets/img/becas.jpg"
+                    src={imgBecas}
                     class="d-block w-100"
                     alt="..."
                   />
@@ -639,7 +639,7 @@ const Estudiante = () => {
               <div className="div-historia">
                 <div className="div-historia-izq col-5">
                   <img
-                    src="/src/assets/img/Escolta.jpeg"
+                    src={imgEscolta}
                     alt="Imagen"
                     className="image"
                   />
@@ -684,10 +684,10 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+              <img src={imgProgramaInst} alt="" />
             </div>
           </div>
-          <img src="/src/assets/img/Pasos.png" alt="" /> <br /> <br />
+          <img src={imgPasos} alt="" /> <br /> <br />
           <h3>
             Puedes consultar la asignación del tutor o tutora de tu grupo, a
             través de{" "}
@@ -715,8 +715,8 @@ const Estudiante = () => {
             </a>
           </h3>{" "}
           <br />
-          <img src="/src/assets/img/Coordinaciones.png" alt="" />
-          <img src="/src/assets/img/Coordinaciones2.png" alt="" />
+          <img src={imgCoordinaciones} alt="" />
+          <img src={imgCoordinaciones2} alt="" />
         </div>{" "}
         <br /> <br />
         <div className="Aspirante">
@@ -848,7 +848,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+              <img src={imgProgramaInst} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -865,7 +865,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/becas.jpg" alt="" />
+              <img src={imgBecas} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -888,7 +888,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/CulturaYDeporte.jpg" alt="" />
+              <img src={imgDeporte} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -903,7 +903,7 @@ const Estudiante = () => {
               <p>Sustentabilidad para el desarrollo</p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/carrerasTSU/Plásticos.jpg" alt="" />
+              <img src={imgPlasticos} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -937,7 +937,7 @@ const Estudiante = () => {
             </div>
             <div className="div-modeloEducativo-der col-5">
               <img
-                src="/src/assets/img/carrerasTSU/DesarrolloDeSoftwareMultiplataforma.jpg"
+                src={imgDSM}
                 alt=""
               />
             </div>
@@ -959,7 +959,7 @@ const Estudiante = () => {
             </div>
             <div className="div-modeloEducativo-der col-5">
               <img
-                src="/src/assets/img/carrerasING/RedesInteligentesYCiberseguridad.jpg"
+                src={imgRedes}
                 alt=""
               />
             </div>
@@ -996,7 +996,7 @@ const Estudiante = () => {
               </ul>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/carrerasING/CapitalHumano.jpg" alt="" />
+              <img src={imgCapitalHumano} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -1039,7 +1039,7 @@ const Estudiante = () => {
               </ul>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+              <img src={imgProgramaInst} alt="" />
             </div>
           </div>
           <p>
@@ -1107,7 +1107,7 @@ const Estudiante = () => {
               </ul>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Reingreso.jpg" alt="" />
+              <img src={imgReingreso} alt="" />
             </div>
           </div>
           <div className="div-modeloEducativo">
@@ -1126,7 +1126,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Reingreso.jpg" alt="" />
+              <img src={imgReingreso} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -1187,7 +1187,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/constancia.jpg" alt="" />
+              <img src={imgConstancia} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -1214,7 +1214,7 @@ const Estudiante = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+              <img src={imgProgramaInst} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -1247,7 +1247,7 @@ const Estudiante = () => {
               </ul>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/constancia.jpg" alt="" />
+              <img src={imgConstancia} alt="" />
             </div>
           </div>
         </div>{" "}

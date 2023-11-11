@@ -71,7 +71,7 @@ const Administrativo = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/universidad.png" alt="" />
+              <img src={imgUniversidad} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -200,7 +200,7 @@ const Administrativo = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Junta.jpeg" alt="" />
+              <img src={imgJunta} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -210,7 +210,7 @@ const Administrativo = () => {
           <div className="div-modeloEducativo">
             <div className="div-modeloEducativo-izq col-7"></div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Junta.jpeg" alt="" />
+              <img src={imgJunta} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -233,7 +233,7 @@ const Administrativo = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Junta2.jpg" alt="" />
+              <img src={imgJunta2} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -242,7 +242,7 @@ const Administrativo = () => {
           <h1>Comité de Igualdad Laboral y No Discriminación</h1>
           <div className="div-modeloEducativo">
             <div className="div-modeloEducativo-der col">
-              <img src="/src/assets/img/Comite.jpg" alt="" />
+              <img src={imgComite} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -381,7 +381,7 @@ const Administrativo = () => {
               </select>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Contraloria.png" alt="" />
+              <img src={imgContraloria} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -413,7 +413,7 @@ const Administrativo = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Salud.jpg" alt="" />
+              <img src={imgSalud} alt="" />
             </div>
           </div>
         </div>{" "}
@@ -459,7 +459,7 @@ const Administrativo = () => {
               </p>
             </div>
             <div className="div-modeloEducativo-der col-5">
-              <img src="/src/assets/img/Seguridad.jpg" alt="" />
+              <img src={imgSeguridad} alt="" />
             </div>
           </div>
           <h3>
