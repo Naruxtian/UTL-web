@@ -997,6 +997,25 @@ h1 a{
   margin-bottom: 20px;
 }
 
+
+.contServicio{
+  margin-left: auto;
+  margin-right: auto;
+}
+.card3 {
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  text-align: center;
+  height: auto;
+  width: 90%;
+  margin: 0 auto;
+  background-color: rgb(255, 255, 255, 0.7);
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
 .card2 img{
   height: 40%;
   margin-bottom: 20px;
@@ -1078,4 +1097,9 @@ h1 a{
  table thead {
   background-color: #003082;
   color: white;
+}
+
+
+table{
+  width: 100%;
 }
