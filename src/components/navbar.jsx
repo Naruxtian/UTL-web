@@ -240,7 +240,7 @@ const Navbar = ({ modulo }) => {
             </div>
           </div>
         )}
-        <div className="right-content">
+        <div className="imagenNav">
           <img src="/src/assets/img/utlLogo2.png" alt="Logo" className="logo" />
         </div>
       </nav>

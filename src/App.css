@@ -469,6 +469,19 @@ h1 a{
   padding: 10px;
 }
 
+.navbar button{
+  margin-top: 5px;
+  margin-bottom: 10px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.imagenNav{
+  margin-left: auto;
+  margin-right: auto;
+}
+
 /* Estilos para la parte izquierda del menú */
 .left-content {
   display: flex;
@@ -586,14 +599,22 @@ h1 a{
   font-size: 2vw;
   margin-top: 10px;
   color: black;
-  width: 20%;
+  width: 200px;
   font-size: large;
   margin-left: 20px;
+  
+  
+}
+
+.section-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 
 .navbar{
-  width: 50%;
+  width: 100%;
 }
 
 .barraNavegacion{
@@ -619,7 +640,7 @@ h1 a{
 
 .Aspirante{
   background-color: rgb(255, 255, 255, 0.7);
-  width: 60%;
+  width: 100%;
   border-radius: 20px;
   margin-left: auto;
   margin-right: auto;
@@ -627,10 +648,11 @@ h1 a{
 
 }
 
+
 .Aspirante h1 {
   text-align: center;
   color: #003082;
-  font-size: 80px;
+  font-size: 30px;
 }
 
 .Aspirante hr {
@@ -722,8 +744,9 @@ h1 a{
 }
 
 .valores-container{
-  display: flex; 
-  text-align: justify;
+  
+  display: flex;
+    flex-wrap: wrap;
 }
 
 .valores-container button{
@@ -732,6 +755,7 @@ h1 a{
   margin-right: 4px;
   padding: 5px 10px;
   font-size: 14px;
+  margin-top: 10px;
 }
 
 .valores-container button.active {
@@ -793,15 +817,24 @@ h1 a{
 .div-ubicacion{
   align-items: center;
   padding: 20px;
+  width: 50%;
+}
+
+.div-ubicacion2{
+  align-items: center;
+  padding: 20px;
+  width: 50%;
 }
 
 
 .primerMapa{
   display: inline-flex;
+  width: 100%;
 }
 
 .segundoMapa{
   display: inline-flex;
+  width: 100%;
 }
 
 .div-ubicacion img {
@@ -818,17 +851,46 @@ h1 a{
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.ubicacion{
-  padding: 20px;
-  width: 100%;
+.div-ubicacion2 p{
+  text-align: justify;
+  padding: 20px;  
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+.ubicacion{
+  
+  width: 100%;
+  height: 100%;
+}
+
+.ubicacion2{
+  
+  width: 100%;
+  height: 100%;
+}
 .custom-card {
   height: 60vh; /* Establece la altura fija que desees */
 }
 
 .custom-card img{
   height: 100%;
+}
+
+.ofertas{
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+.cardOfertas{
+  
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.arregloOfertas{
+  margin-left: auto;
+  margin-right: auto;
+
 }
 
 .custom-card a{
