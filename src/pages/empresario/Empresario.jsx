@@ -435,7 +435,6 @@ const Empresario = () => {
         <Navbar modulo={"empresario"} />
         <div className="section-buttons">
           <button className='btn ' onClick={() => handleSectionChange('Conoce')}>Conoce la UTL</button>
-          <button className='btn' onClick={() => handleSectionChange('Desarrollo')}>Desarrollo Humano y Organizacional</button>
           <button className='btn' onClick={() => handleSectionChange('OfertaEducativa')}>Programas Educativos</button>
           <button className='btn' onClick={() => handleSectionChange('Vinculacion')}>Vinculacion</button>
           <button className='btn' onClick={() => handleSectionChange('Servicios')}>Servicios</button>
