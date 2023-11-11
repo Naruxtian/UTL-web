@@ -3,7 +3,7 @@ import Navbar from "../../components/navbar";
 
 const SomosUtl = () => {
   const [activeValue, setActiveValue] = useState(null);
-  const [activeSection, setActiveSection] = useState("Conoce");
+  const [activeSection, setActiveSection] = useState("Rectora");
   const [isModalOpen, setModalOpen] = useState(false);
   const [isModalOpen2, setModalOpen2] = useState(false);
   const [modalTitle, setModalTitle] = useState('');
@@ -511,12 +511,40 @@ const SomosUtl = () => {
           </div> <br /> <br />
       </div> 
   ),
+  Rectora: (
+    <div> <br /> <br />
+    <div className='Aspirante'>
+                    <h1>Mensaje de Nuestra Rectora</h1>
+                    <div className='div-modeloEducativo'>
+                        <div className='div-modeloEducativo-izq col-7'>
+                          <h3><b>Querida Comunidad UTL:</b></h3>
+                          <p>Es un gusto muy especial dirigirme a todas y todos los integrantes de la Comunidad UTL: estudiantado, personal docente y administrativo, y demás plantilla actoral de nuestro entorno universitario. </p>
+                          <p>Desde marzo ya estamos de regreso a casa. Y en este deseo de normalizar nuestra vida universitaria, hemos vivenciado un proceso necesario de reencuentro, de reconocimiento, para compensar esos meses de confinamiento que afectaron nuestra forma de relacionarnos personal y colectivamente. Pero si algo nos define, es que somos una institución tecnológicamente humana, en innovación y adaptación constante. </p>
+                          <p>Y en esta nueva realidad, que nos enfocamos en dar prioridad a la salud, atendiendo en todo momento a las medidas sanitarias para mantener a raya todo contagio. Además, es necesario, como dice nuestro Gobernador Diego Sinhué Rodríguez, reinventarnos para ser mejores, esto es, crear nuevas formas de realizar el proceso formativo, académico, administrativo para que nuestra UTL siga siendo considerada un bastión importante del ecosistema educativo guanajuatense. </p>
+                          <p>Como bien lo dice nuestro lema “Somos Leones, Somos Leonas”, les invito a construir entre todos una “guarida segura” donde prevalezca un ambiente de colaboración y convivencia, donde nos sintamos a gusto en “nuestra guarida”, promoviendo una cultura de paz y de respeto a nuestros derechos humanos fundamentales. Acorde a los nuevos tiempos, mostremos a la sociedad que la UTL es íntegra, inclusiva y sostenible.</p>
+                          <br />
+                          <p><b>Yoloxóchitl Bustamante Díez</b></p>
+                          <p> Encargada del Despacho de Rectoría </p>
+                        </div>
+                        <div className='div-modeloEducativo-der col-5'>
+                            <img src="/src/assets/img/RectoraAspirante.jpeg" alt="" />
+                        </div>
+                    </div>
+          </div> <br /> <br />
+    </div>
+  )
   };
 
   return (
     <div>
       <Navbar modulo={"Somos UTL"} />
       <div className="section-buttons">
+        <button
+            className="btn "
+            onClick={() => handleSectionChange("Rectora")}
+        >
+            Rectora
+        </button>
         <button
           className="btn "
           onClick={() => handleSectionChange("Conoce")}

@@ -1,6 +1,7 @@
 //mi rama
 import { useState } from "react";
 import utlLogo from "../../assets/img/utlLogo.png";
+import { Link, useNavigate } from 'react-router-dom';
 
 const Inicio = () => {
   const [mostrarContenidoHerramientas, setMostrarContenidoHerramientas] =
@@ -34,37 +35,37 @@ const Inicio = () => {
     }
   };
 
+  const link = {
+    textDecoration: 'none',
+    color: 'white',  
+  };
+
   return (
     <>
       <div className="">
         <div className="div-opciones">
           <ul className="nav">
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Aula Virtual
-              </a>
-            </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://www.utleon.edu.mx/resource/img/CALENDARIO%20LE%C3%93N.jpg" target="_blank">
                 Calendario Escolar 2023-2024
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://login.microsoftonline.com/organizations/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code%20id_token&scope=openid%20profile%20https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=638352614900946536.MWQ0NWI1MGYtMzZjZi00NzBmLTgyN2YtMmIyYzRmNzgwMDVhYzRhZTM2ZjItYmVmMi00OTc4LThhODUtYzAyYzRjOWU4Nzlh&ui_locales=es-MX&mkt=es-MX&msafed=0&client-request-id=ffc67307-5e73-4e97-b886-3c8395ffff9c&state=W8KR2dMS90zitoMT0KnZ2o5vPWVhS7tHQQClPbeWr-Dq4u3zgB7n1BwCkU-HSTHytOC5jqcmKoks9hqN-XCrK0kdEWUsJnT9lYUX_jQBHr1bGuggz7cexCU8AYPVGrnPtyD2-RmsKxUnpeX_uRbphgkQ3aX_DJrJImAAHXiXBaH0SBTDpQfDZYnkvZHFgVForPP9DLQHm4J-PL5h3rzUAjB7yAxXi27Oz8taF_h3UTFMqEBLjG0N1NmnbBVotNamRb_w7hlLBgekjxouXW4_nxE0mMJBK1U3jdaApqe1zi2sgurDgvRYvX-KJzNZY0BZtRY6mk_UuOUu_F12fcdEbI-lC9o-dLiL240CW-eCTwk&x-client-SKU=ID_NET6_0&x-client-ver=6.30.1.0" target="_blank">
                 Correo Electronico
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://sito.utleon.edu.mx/" target="_blank">
                 SITO
               </a>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="http://www.bibliotecaecest.mx/" target="_blank">
                 Biblioteca Digital
               </a>
             </li>
@@ -90,7 +91,7 @@ const Inicio = () => {
               >
                 <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h10v-9h-3v-3h3v-1.611C16,9.339,17.486,8,20.021,8 c1.214,0,1.856,0.09,2.16,0.131V11h-1.729C19.376,11,19,11.568,19,12.718V14h3.154l-0.428,3H19v9h5c1.105,0,2-0.895,2-2V6 C26,4.895,25.104,4,24,4z"></path>
               </svg>
-            </a>
+            </a> 
             {/* Icono Instagram */}
             <a href="https://www.instagram.com/utlmex/">
               <svg
@@ -154,43 +155,23 @@ const Inicio = () => {
         <div className="div-opciones2">
           <ul className="nav">
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                ¿Quiénes somos?
-              </a>
+              <Link style={link} to="/aspirante">
+                <a className="nav-link" href="">
+                  ¿Quiénes somos?
+                </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Mensaje Institucional
-              </a>
+              <Link style={link} to="/SomosUtl">
+                <a className="nav-link" href="#">
+                  Mensaje Institucional
+                </a>
+              </Link>
             </li>
 
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Noticias
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Transparencia
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                UTL en Cifras
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
-                Normativa
-              </a>
-            </li>
-
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+              <a className="nav-link" href="https://sito.utleon.edu.mx/jsp/reclutamiento/muestra_convocatoria_general.jsp" target="_blank">
                 ¿Quieres trabajar en UTL?
               </a>
             </li>
