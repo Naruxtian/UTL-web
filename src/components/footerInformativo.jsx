@@ -1,3 +1,5 @@
+import UTLogo from "/src/assets/img/utlLogo.png"
+
 //mi rama
 const FooterInformativo = () => {
   return (
@@ -6,7 +8,7 @@ const FooterInformativo = () => {
         <div className="footer-content">
           <div className="footer-top">
             <div className="footer-image">
-              <img src="/src/assets/img/utlLogo.png" alt="Logo" />
+              <img src={UTLogo} alt="Logo" />
             </div>
             <div className="footer-info">
               <div className="column">

@@ -1,5 +1,12 @@
 import React, {useState} from 'react'
 import Navbar from '../../components/navbar'
+import imgUniversidad from "/src/assets/img/universidad.png"
+import imgJunta from "/src/assets/img/Junta.jpeg"
+import imgJunta2 from "/src/assets/img/Junta2.jpg"
+import imgComite from "/src/assets/img/Comite.jpg"
+import imgContraloria from "/src/assets/img/Contraloria.png"
+import imgSalud from "/src/assets/img/Salud.jpg"
+import imgSeguridad from "/src/assets/img/Seguridad.jpg"
 
 const Administrativo = () => {
 
@@ -30,7 +37,7 @@ const Administrativo = () => {
                             <p>Antes de producir cualquier material que incluya el logotipo institucional, deberá solicitar su validación con el Departamento de Imagen a la ext. 213 o al correo <b>argomez@utleon.edu.mx</b>.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/universidad.png" alt="" />
+                            <img src={imgUniversidad} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -93,7 +100,7 @@ const Administrativo = () => {
                             <p><a href="" target='_blank'>INSTRUCTIVO PARA GENERAR EL ACTA DE ENTREGA RECEPCIÓN</a></p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Junta.jpeg" alt="" />
+                            <img src={imgJunta} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -104,7 +111,7 @@ const Administrativo = () => {
                             
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Junta.jpeg" alt="" />
+                            <img src={imgJunta} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -119,7 +126,7 @@ const Administrativo = () => {
                                 <p>El objetivo del Comité de Ética y Prevención del conflicto de Interés, tendrá por objeto promover y difundir la observancia de valores éticos y la prevención del conflicto de interés, en las actividades que realiza la comunidad universitaria.</p>
                             </div>
                             <div className='div-modeloEducativo-der col-5'>
-                                <img src="/src/assets/img/Junta2.jpg" alt="" />
+                                <img src={imgJunta2} alt="" />
                             </div>
                         </div>
                 </div> <br /> <br />
@@ -127,7 +134,7 @@ const Administrativo = () => {
                     <h1>Comité de Igualdad Laboral y No Discriminación</h1>
                         <div className='div-modeloEducativo'>
                             <div className='div-modeloEducativo-der col'>
-                                <img src="/src/assets/img/Comite.jpg" alt="" />
+                                <img src={imgComite} alt="" />
                             </div>
                         </div>
                 </div> <br /> <br />
@@ -201,7 +208,7 @@ const Administrativo = () => {
                         </select>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Contraloria.png" alt="" />
+                            <img src={imgContraloria} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -219,7 +226,7 @@ const Administrativo = () => {
                             <p>En el área de Salud integral se te brinda los servicios médicos de urgencias y canalizaciones.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Salud.jpg" alt="" />
+                            <img src={imgSalud} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -236,7 +243,7 @@ const Administrativo = () => {
                             <p>Pero no es sino hasta la creación del Espacio Común de Educación Superior Tecnológica (ECEST) en el 2009, que se comienzan a realizar una serie de trabajos orientados a impulsar el mejoramiento general de los servicios educativos que brindan las instituciones de educación superior (IES) de los subsistemas de Institutos Tecnológicos, Universidades Politécnicas y Universidades Tecnológicas. En particular y, dentro de este marco, en 2010 se conformó la Comisión de Cultura, Prevención y Seguridad con objeto de atender la demanda de espacios educativos seguros y en los que se viva una cultura de prevención y seguridad. No obstante esto no sólo se consolida en el ECEST, sino también en gran medida en lo que la certificación en ISO 14001:2004 nos marca como un requisito indispensable no nada más para salvaguardar la vida de los miembros de la comunidad universitaria, sino también para saber qué hacer en caso de una emergencia ambiental.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Seguridad.jpg" alt="" />
+                            <img src={imgSeguridad} alt="" />
                         </div>
                     </div>
                     <h3><a href="https://www.utleon.edu.mx/public_html/seguridad-institucional/protocolo-de-emergencia/img_protocolo_de_emergencia.jpg" target='_blank'>Protocolo de Emergencia</a></h3> <br />

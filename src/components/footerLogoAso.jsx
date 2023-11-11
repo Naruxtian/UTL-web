@@ -1,10 +1,11 @@
 //mi rama
+import logosASO from "/src/assets/img/logosAso.jpg"
 const Footer = () => {
   return (
     <div className="row">
       <div>
         <img
-          src="/src/assets/img/logosAso.jpg"
+          src={logosASO}
           className="img-fluid"
           style={{ width: "100%" }}
           alt="LogosAso"

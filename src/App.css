@@ -102,7 +102,7 @@ img {
   display: flex;
   align-items: center;
   width: 100%;
-  height: 70vh;
+  height: 49vh;
   
   margin-top: 10%;
 
@@ -121,12 +121,16 @@ img {
 }
 
 .div-opciones2 a{
-   color: white;
-  
+   color: white; 
+}
+.div-opciones2 a:hover{
+  color: #00B394;
 }
 .div-opciones a{
   color: white;
- 
+}
+.div-opciones a:hover{
+  color: #00B394;
 }
 
 /* .titulo{
@@ -206,6 +210,9 @@ h1 {
 .nav-link{
 color: white;
 font-size: large;
+}
+.nav-link:hover{
+  color: #00B394;
 }
 
 .div-centrado{
@@ -364,6 +371,10 @@ h1 a{
     position: relative; 
     bottom: 0;
   }
+  .div-redes a{
+    margin: 0 50px;
+  }
+  
 
   .div-logosAso {
     position: absolute; 
@@ -835,9 +846,9 @@ h1 a{
 
 
 .ft{
-  width: 92vw;
+  width: 97vw;
   /* llevar el contenido a la derecha */
-  margin-left: auto; 
+  margin-left: 3%; 
   
 }
 

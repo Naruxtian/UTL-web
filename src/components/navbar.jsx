@@ -1,4 +1,6 @@
 import { useState } from 'react';
+import imgRectora from "/src/assets/img/RectoraAspirante.jpeg"
+import imgUTLogo from "/src/assets/img/utlLogo2.png"
 
 const Navbar = ({modulo}) => {
 
@@ -139,7 +141,7 @@ const Navbar = ({modulo}) => {
                                     </div>
                                     <div className="modal-body">
                                         <div>
-                                            <img src="/src/assets/img/RectoraAspirante.jpeg" alt="" />
+                                            <img src={imgRectora} alt="" />
                                             <p>
                                                 Es un gusto muy especial dirigirme a ti, apreciable aspirante.
                                                 En la Universidad Tecnológica de León, te abrimos las puertas para que formes parte de nuestra familia, ya que contamos con una gama muy amplia de carreras universitarias para preparar a los futuros profesionistas que requiere León y Guanajuato.
@@ -154,7 +156,7 @@ const Navbar = ({modulo}) => {
                         </div>
                     )}
                 <div className="right-content">
-                    <img src="/src/assets/img/utlLogo2.png" alt="Logo" className="logo" />
+                    <img src={imgUTLogo} alt="Logo" className="logo" />
                 </div>
             </nav>
         </div>
