@@ -1,5 +1,20 @@
 import React, {useState} from 'react'
 import Navbar from '../../components/navbar'
+import imgConstancia from "/src/assets/img/constancia.jpg"
+import imgCrendencial from "/src/assets/img/Credencial.jpeg"
+import imgBecas from "/src/assets/img/becas.jpg"
+import imgReingreso from "/src/assets/img/Reingreso.jpg"
+import imgDeporte from "/src/assets/img/CulturaYDeporte.jpg"
+import imgCarrusel from "/src/assets/img/carousel-1.jpeg"
+import imgEscolta from "/src/assets/img/Escolta.jpeg"
+import imgProgramaInst from "/src/assets/img/ProgramaInstitucional.jpg"
+import imgPasos from "/src/assets/img/Pasos.png"
+import imgCoordinaciones from "/src/assets/img/Coordinaciones.png"
+import imgCoordinaciones2 from "/src/assets/img/Coordinaciones2.png"
+import imgPlasticos from "/src/assets/img/carrerasTSU/Plásticos.jpg"
+import imgDSM from "/src/assets/img/carrerasTSU/DesarrolloDeSoftwareMultiplataforma.jpg"
+import imgRedes from "/src/assets/img/carrerasING/RedesInteligentesYCiberseguridad.jpg"
+import imgCapitalHumano from "/src/assets/img/carrerasING/CapitalHumano.jpg"
 
 const Estudiante = () => {
 
@@ -52,7 +67,7 @@ const Estudiante = () => {
                             En caso de requerir una constancia de estudios, bajo las especificaciones expuestas, deberás realizar el siguiente proceso.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/constancia.jpg" alt="" />
+                            <img src={imgConstancia} alt="" />
                         </div>
                     </div>
                     <div><div ><iframe title="CONSTANCIA 21-03-2023" frameborder="0" width="1000px" height="675px" src="https://view.genial.ly/62461312c1dd840018544a09" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
@@ -74,7 +89,7 @@ const Estudiante = () => {
                             </p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Credencial.jpeg" alt="" />
+                            <img src={imgCrendencial} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -90,7 +105,7 @@ const Estudiante = () => {
                             <p>¡Que las cuestiones financieras no sean una limitante para que puedas continuar con tus estudios!</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/becas.jpg" alt="" />
+                            <img src={imgBecas} alt="" />
                         </div>
                     </div>
                     <div><div><iframe title="Sitio Becas_EA6" frameborder="0" width="800px" height="1600px" src="https://view.genial.ly/6409ef9f15155d00126a8ace" type="text/html" allowscriptaccess="always" allowfullscreen="true" scrolling="yes" allownetworking="all"></iframe> </div> </div>
@@ -124,7 +139,7 @@ const Estudiante = () => {
                         </button>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Reingreso.jpg" alt="" />
+                            <img src={imgReingreso} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -155,7 +170,7 @@ const Estudiante = () => {
                             Mostramos a la comunidad mediante exposiciones y presentaciones nuestras cualidades adquiridas en los talleres culturales.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/CulturaYDeporte.jpg" alt="" />
+                            <img src={imgDeporte} alt="" />
                         </div>
                     </div>
                     <div>
@@ -168,13 +183,13 @@ const Estudiante = () => {
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="/src/assets/img/carousel-1.jpeg" class="d-block w-100" alt="..."/>
+                                <img src={imgCarrusel} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src="/src/assets/img/Reingreso.jpg" class="d-block w-100" alt="..."/>
+                                <img src={imgReingreso} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src="/src/assets/img/becas.jpg" class="d-block w-100" alt="..."/>
+                                <img src={imgBecas} class="d-block w-100" alt="..."/>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -195,13 +210,13 @@ const Estudiante = () => {
                             </div>
                             <div class="carousel-inner">
                                 <div class="carousel-item active">
-                                <img src="/src/assets/img/carousel-1.jpeg" class="d-block w-100" alt="..."/>
+                                <img src={imgCarrusel} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src="/src/assets/img/Reingreso.jpg" class="d-block w-100" alt="..."/>
+                                <img src={imgReingreso} class="d-block w-100" alt="..."/>
                                 </div>
                                 <div class="carousel-item">
-                                <img src="/src/assets/img/becas.jpg" class="d-block w-100" alt="..."/>
+                                <img src={imgBecas} class="d-block w-100" alt="..."/>
                                 </div>
                             </div>
                             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators2" data-bs-slide="prev">
@@ -221,7 +236,7 @@ const Estudiante = () => {
                         <div>
                             <div className="div-historia">
                                 <div className='div-historia-izq col-5'>
-                                    <img src="/src/assets/img/Escolta.jpeg" alt="Imagen" className="image" />
+                                    <img src={imgEscolta} alt="Imagen" className="image" />
                                 </div>
                                 <div className='div-historia-der col-7'>
                                     <h1>Contáctanos</h1>
@@ -244,10 +259,10 @@ const Estudiante = () => {
                             <p>Los principales alcances de la acción tutorial son: Detección, orientación, canalización y seguimiento</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+                            <img src={imgProgramaInst} alt="" />
                         </div>
                     </div>
-                    <img src="/src/assets/img/Pasos.png" alt="" /> <br /> <br />
+                    <img src={imgPasos} alt="" /> <br /> <br />
                     <h3>Puedes consultar la asignación del tutor o tutora de tu grupo, a través de <a href="https://sito.utleon.edu.mx/" target='_blank'>SITO</a></h3>
                     <div class="card">
                         <h2>Responsable Institucional de Tutorías:</h2>
@@ -258,8 +273,8 @@ const Estudiante = () => {
                         <p><b>Horario de atención: </b>de lunes a viernes de 11:00 a 15:00 horas</p>
                     </div>
                     <h3><a href="https://www.utleon.edu.mx/resource/documentos/Organigrama%20Psic.%20SD22.pdf" target='_blank'>Organigrama</a></h3> <br />
-                    <img src="/src/assets/img/Coordinaciones.png" alt="" />
-                    <img src="/src/assets/img/Coordinaciones2.png" alt="" />
+                    <img src={imgCoordinaciones} alt="" />
+                    <img src={imgCoordinaciones2} alt="" />
                 </div> <br /> <br />
                 <div className='Aspirante'>
                     <h1>Servicio de Atención Psicopedagógica SAP</h1> <br />
@@ -317,7 +332,7 @@ const Estudiante = () => {
                             <p>Somos una Incubadora reconocida e integrada a la Red de Incubadoras del Subsistema de Universidades Tecnológicas (RISUT) y que forma parte de la Red Estatal de Incubadoras de Guanajuato.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+                            <img src={imgProgramaInst} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -328,7 +343,7 @@ const Estudiante = () => {
                             <p>Es el área donde la comunidad académica encontrarán los recursos de información en diferentes formatos (libros, revistas, cd, dvd etc.)que apoyan los planes de estudio de cada programa educativo.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/becas.jpg" alt="" />
+                            <img src={imgBecas} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -342,7 +357,7 @@ const Estudiante = () => {
                             <p>En el área de Salud integral se te brinda los servicios médicos de urgencias y canalizaciones.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/CulturaYDeporte.jpg" alt="" />
+                            <img src={imgDeporte} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -356,7 +371,7 @@ const Estudiante = () => {
                             <p>Sustentabilidad para el desarrollo</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasTSU/Plásticos.jpg" alt="" />
+                            <img src={imgPlasticos} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -370,7 +385,7 @@ const Estudiante = () => {
                             <p>El centro de cómputo es un servicio para el alumnado, profesorado y personal administrativo que necesite computadora como herramienta de ayuda. Se programa horario de clase para el alumnado, el cual se tiene que respetar y si requieren más tiempo en el CC se puede programar en otra hora y día. Se tienen 9 laboratorios con 24 equipos cada uno y 1 laboratorios con 23 equipos. Se puede programar el uso del CC a personas externas a la institución siempre y cuando los horarios de clases lo permitan.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasTSU/DesarrolloDeSoftwareMultiplataforma.jpg" alt="" />
+                            <img src={imgDSM} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -382,7 +397,7 @@ const Estudiante = () => {
                             <p>Brindar asesoría para producir recursos y servicios educativos digitales, a través de estrategias tecnológicas, que contribuyen al aprendizaje y mejora continua para la práctica docente en las diferentes modalidades que se imparten en la comunidad educativa.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasING/RedesInteligentesYCiberseguridad.jpg" alt="" />
+                            <img src={imgRedes} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -399,7 +414,7 @@ const Estudiante = () => {
                             </ul>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/carrerasING/CapitalHumano.jpg" alt="" />
+                            <img src={imgCapitalHumano} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -419,7 +434,7 @@ const Estudiante = () => {
                             </ul>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+                            <img src={imgProgramaInst} alt="" />
                         </div>
                     </div>
                     <p>¡Revisa nuestras convocatorias, complementa tu formación y actualiza tus conocimientos en otro país!</p>
@@ -441,7 +456,7 @@ const Estudiante = () => {
                             </ul>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Reingreso.jpg" alt="" />
+                            <img src={imgReingreso} alt="" />
                         </div>
                     </div>
                     <div className='div-modeloEducativo'>
@@ -451,7 +466,7 @@ const Estudiante = () => {
                             <p>La UTL forma parte de las más de 250 universidades de alcance nacional e internacional que integran este proyecto.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Reingreso.jpg" alt="" />
+                            <img src={imgReingreso} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -481,7 +496,7 @@ const Estudiante = () => {
                             <p>El Comité está representado por la Comunidad UTL, participando Alta Dirección, estudiantes Agentes de Paz, Docentes y personal administrativo. Preside la Dra. Yoloxóchitl Bustamante Diez. Enc. de la Rectoría UTL Secretaria Técnica Olga Rebeca Ledesma García. Directora de Desarrollo Académico y Docente También se cuenta con un Comité en la Unidad Académica Sureste.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/constancia.jpg" alt="" />
+                            <img src={imgConstancia} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -497,7 +512,7 @@ const Estudiante = () => {
                             <p>Es importante conocer las obligaciones, beneficios y sanciones que permitan garantizar el aprovechamiento escolar y una educación de calidad.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/ProgramaInstitucional.jpg" alt="" />
+                            <img src={imgProgramaInst} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />
@@ -518,7 +533,7 @@ const Estudiante = () => {
                             </ul>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/constancia.jpg" alt="" />
+                            <img src={imgConstancia} alt="" />
                         </div>
                     </div>
                 </div> <br /> <br />

@@ -1,5 +1,15 @@
 import React, { useState } from "react";
 import Navbar from "../../components/navbar";
+import imgUniversidad from "/src/assets/img/universidad.png"
+import imgFilosofia from "/src/assets/img/filosofia.jpg"
+import imgCampusCentral from "/src/assets/img/CampusCentral.jpg" 
+import imgCampus2 from "/src/assets/img/CampusII.jpg"
+import imgUtlEnDatos from "/src/assets/img/UTLENDATOS-02.jpg"
+import imgPolitica from "/src/assets/img/Politica.jpg"
+import imgCertificacion from "/src/assets/img/Certificacion.jpeg"
+import imgSistemaGI from "/src/assets/img/SistemaGI.png"
+import imgDifusion from "/src/assets/img/Difusion.png"
+import imgContraloria from "/src/assets/img/Contraloria.png"
 
 const SomosUtl = () => {
   const [activeValue, setActiveValue] = useState(null);
@@ -126,7 +136,7 @@ const SomosUtl = () => {
           <div className="div-historia">
             <div className="div-historia-izq col-5">
               <img
-                src="/src/assets/img/universidad.png"
+                src={imgUniversidad}
                 alt="Imagen"
                 className="image"
               />
@@ -152,7 +162,7 @@ const SomosUtl = () => {
           <h1>Filosofía</h1>
           <div className="div-filosofia">
             <div className="div-filosofia-izq col-6">
-              <img src="/src/assets/img/filosofia.jpg" alt="" />
+              <img src={imgFilosofia} alt="" />
             </div>
             <div className="div-filosofiamvv col-6">
               <h4>Misión</h4>
@@ -281,7 +291,7 @@ const SomosUtl = () => {
                     Regional de Alta Especialidad del Bajío, a la altura del
                     Puente del Milenio.
                   </p>
-                  <img src="/src/assets/img/CampusCentral.jpg" alt="" />
+                  <img src={imgCampusCentral} alt="" />
                 </div>
             <div>
               <div className="ubicacion">
@@ -316,7 +326,7 @@ const SomosUtl = () => {
                 de la ciudad de León, Guanajuato, ingresando por el
                 fraccionamiento Jardines de Versalles.
               </p>
-              <img src="/src/assets/img/CampusII.jpg" alt="" />
+              <img src={imgCampus2} alt="" />
             </div>
         </div>{" "}
         <br /> <br />
@@ -331,35 +341,35 @@ const SomosUtl = () => {
                                     <a href="https://www.utleon.edu.mx/resource/img/imagenes/utl_datos/PROGRAMA%20ANUAL%20POA%202022%20CORREGIDO.pdf" className="custom-button button-secondary" target='_blank'>Plan Anual De Compras</a>
                                     <a href="https://www.utleon.edu.mx/resource/img/imagenes/utl_datos/POA%202022.pdf" className="custom-button button-primary" target='_blank'>Presupuesto 2022</a>
                                 </div> <br />
-                                    <button class="custom-button" onClick={() => handleOpenModal("Matricula 2018 a 2023",<div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Matricula 2018 a 2023",<div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Matricula 2018 A 2023</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Matricula 2018 a 2023 por género", <div><div ><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Matricula 2018 a 2023 por género", <div><div ><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Matricula 2018 a 2023 por género</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Absorción", <div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Absorción", <div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Abosrcion</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Población Atendida", <div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Población Atendida", <div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Población Atendida</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Eficiencia Terminal", <div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Eficiencia Terminal", <div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Eficiencia Terminal</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Historico de Egresados", <div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Historico de Egresados", <div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Historico de Egresados</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Modelo Dual", <div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Modelo Dual", <div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Modelo Dual</span>
                                         <span class="button-icon">➯</span>
                                     </button>
-                                    <button class="custom-button" onClick={() => handleOpenModal("Calidad", <div><div><img src="/src/assets/img/UTLENDATOS-02.jpg" alt="" /> </div> </div>)}>
+                                    <button class="custom-button" onClick={() => handleOpenModal("Calidad", <div><div><img src={imgUtlEnDatos} alt="" /> </div> </div>)}>
                                         <span class="button-text">Calidad</span>
                                         <span class="button-icon">➯</span>
                                     </button>
@@ -380,7 +390,7 @@ const SomosUtl = () => {
                           <p>Nos comprometemos en brindar satisfacción a nuestros clientes y nuestras clientas, a través de los servicios de educación superior tecnológica, de apoyo a los sectores productivo y social e incubación de negocios, así como prevenir la contaminación de los aspectos ambientales institucionales, cumpliendo con la normativa ambiental aplicable, promoviendo y difundiendo los principios de sustentabilidad a las partes interesadas, a través de la mejora continua del Sistema de Gestión Integral.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Politica.jpg" alt="" />
+                            <img src={imgPolitica} alt="" />
                         </div>
                     </div>
           </div> <br /> <br />
@@ -391,7 +401,7 @@ const SomosUtl = () => {
                           <p>La Universidad Tecnológica de León asegura el cumplimiento de la política y objetivos de calidad, a través de la implementación, mantenimiento y mejoramiento de los requisitos de la Normas ISO 9001:2015, ISO 14001:2015 y NMX-R-025-SCFI-2015</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Certificacion.jpeg" alt="" />
+                            <img src={imgCertificacion} alt="" />
                         </div>
                     </div>
           </div> <br /> <br />
@@ -410,7 +420,7 @@ const SomosUtl = () => {
                           <p>Desarrollo y provisión de servicios educativos para los niveles de técnico/a superior universitario/a, licenciatura e ingeniería, incubación de negocios y servicios de apoyo a los sectores productivo y social.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/SistemaGI.png" alt="" />
+                            <img src={imgSistemaGI} alt="" />
                         </div>
                     </div>
           </div> <br /> <br />
@@ -427,7 +437,7 @@ const SomosUtl = () => {
                           <p>Antes de producir cualquier material que incluya el logotipo institucional, deberá solicitar su validación con el Departamento de Imagen a la ext. 213 o al correo argomez@utleon.edu.mx.</p>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Difusion.png" alt="" />
+                            <img src={imgDifusion} alt="" />
                         </div>
                     </div>
           </div> <br /> <br />
@@ -446,7 +456,7 @@ const SomosUtl = () => {
                           </ul>
                         </div>
                         <div className='div-modeloEducativo-der col-5'>
-                            <img src="/src/assets/img/Difusion.png" alt="" />
+                            <img src={imgDifusion} alt="" />
                         </div>
                     </div>
           </div> <br /> <br />
@@ -502,7 +512,7 @@ const SomosUtl = () => {
                   </select>
                   </div>
                   <div className='div-modeloEducativo-der col-5'>
-                      <img src="/src/assets/img/Contraloria.png" alt="" />
+                      <img src={imgContraloria} alt="" />
                   </div>
               </div>
           </div> <br /> <br />
